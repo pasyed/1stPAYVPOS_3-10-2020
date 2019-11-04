@@ -23,6 +23,7 @@ public class DynamicLocators {
 
 
 	String idLocator = '//*[@id="%s"]'
+	String checkBoxLabelLocator='//section[@id="p-%s"]//*[text()="%s"]'
 	String labelLocator='//*[text()="%s"]/parent::div/following-sibling::div//label[text()="Yes"]'
 	String dateLocator='//td[text()="%s" and @class="day"]'
 	String locatorForCheckBox='//section[@id="p-%s"]//*[text()="%s"]/ancestor::div[1]/input'
@@ -35,7 +36,13 @@ public class DynamicLocators {
 		testObj.addProperty("xpath",ConditionType.EQUALS,idLocator)
 		return testObj
 	}
-
+	@Keyword
+	def createDynamicCheckboxLocatorForCheckBox(String tabName,String checkBoxCardPresence){
+		checkBoxLabelLocator=String.format(checkBoxLabelLocator, tabName,checkBoxCardPresence)
+		TestObject testObj=new TestObject()
+		testObj.addProperty("xpath",ConditionType.EQUALS,checkBoxLabelLocator)
+		return testObj
+	}
 	@Keyword
 	def createDynamicLocatorForCheckBox(String TabName,String checkBoxValue){
 		locatorForCheckBox=String.format(locatorForCheckBox,TabName,checkBoxValue)

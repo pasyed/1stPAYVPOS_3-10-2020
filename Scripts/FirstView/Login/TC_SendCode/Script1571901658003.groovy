@@ -13,6 +13,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+/**
+ *
+ * Implemented By ZenQ
+ * Tested on Chrome Version 76.0.3809.100
+ * Tested on Firefox Version 68.0,70.0
+ *
+ *
+ */
+
 flag = CustomKeywords.'pages.SendCode.verifyPage'()
 if(flag){
 	CustomKeywords.'pages.SendCode.clickonUserSettings'()

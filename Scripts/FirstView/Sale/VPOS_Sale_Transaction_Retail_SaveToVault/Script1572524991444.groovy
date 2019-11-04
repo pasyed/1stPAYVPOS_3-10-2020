@@ -13,15 +13,14 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-not_run: CustomKeywords.'utilities.SafeActions.openBrowser'(GlobalVariable.Old_URL, (([GlobalVariable.PageLoadTime]) as int[]))
-
-not_run: WebUI.delay(delayForPageLoad)
-
-not_run: CustomKeywords.'utilities.SafeActions.safeSelectOptionInDropDownByVisibleText'(findTestObject('Pages/Sale/dropDown_AccountType'), 
-    accountType, 'Select by Value', (([GlobalVariable.PageLoadTime]) as int[]))
-
-not_run: WebUI.delay(3)
-
+/**
+ *
+ * Implemented By ZenQ
+ * Tested on Chrome Version 76.0.3809.100
+ * Tested on Firefox Version 68.0,70.0
+ *
+ *
+ */
 CustomKeywords.'utilities.SafeActions.openBrowser'(GlobalVariable.URL, (([GlobalVariable.PageLoadTime]) as int[]))
 
 CustomKeywords.'pages.Login.login'(uName, password)
@@ -46,9 +45,6 @@ WebUI.delay(2)
 
 CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('Pages/Sale/input_Amount'), amountInput, 'Amount field', 
         (([GlobalVariable.delayForElement]) as int[]))
-
-not_run: CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('Pages/Sale/input_Amount'), amountInput, 'Enter Amount into Amount text box', 
-        (([GlobalVariable.PageLoadTime]) as int[]))
 
 total_Amount = CustomKeywords.'utilities.SafeActions.safeGetText'(findTestObject('Pages/Sale/total_Amount'), GlobalVariable.PageLoadTime)
 
@@ -81,14 +77,13 @@ CustomKeywords.'utilities.SafeActions.safeClickWithoutScrollOnLabel'(findTestObj
 //CustomKeywords.'utilities.SafeActions.selectSeleniumCodeYear'(findTestObject('Pages/Sale/dropDown_ExpirationYear'), '2022')
 WebUI.delay(GlobalVariable.delayBetweenTestSteps)
 
-not_run: CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('Pages/Sale/input_SecurityCode'), securityCode, 
-    'Enter Security code', (([GlobalVariable.delayForElement]) as int[]))
-
 WebUI.scrollToElement(findTestObject('Pages/Sale/invoiceNumber'), GlobalVariable.PageLoadTime)
 
 invoiceNumber = CustomKeywords.'utilities.SafeActions.safeGetText'(findTestObject('Pages/Sale/invoiceNumber'), GlobalVariable.PageLoadTime)
 
 CustomKeywords.'pages.Sale.verifyIfAdditionalPromptingIsChecked'('Save to Vault?', GlobalVariable.PageLoadTime)
+
+WebUI.delay(GlobalVariable.delayForElement)
 
 //WebUI.executeJavaScript("document.getElementById('select-expiration-year').className='form-control parsley-success'", null)
 /*CustomKeywords.'utilities.SafeActions.selectSeleniumCode'(findTestObject('Pages/Sale/dropDown_ExpirationMonth'), 'December')
@@ -112,6 +107,13 @@ CustomKeywords.'utilities.SafeActions.safeClickwithScroll'(findTestObject('Pages
         (([GlobalVariable.PageLoadTime]) as int[]))
 
 CustomKeywords.'pages.Sale.verifyTransactionCompletePage'(findTestObject('Pages/Sale/heading_TransactionComplete'))
+
+transactionCompleteMessage = CustomKeywords.'utilities.SafeActions.safeGetText'(findTestObject('Pages/ForceTransactions/approved_TransactionMessage_TransactionComplete_Screen'), 
+    GlobalVariable.delayForElement)
+
+println(transactionCompleteMessage)
+
+CustomKeywords.'pages.Force_Transaction.verifyStrings'(transactionCompleteMessage)
 
 //WebUI.delay(6)
 WebUI.scrollToElement(findTestObject('Pages/Sale/input_VaultReferenceNumber'), GlobalVariable.PageLoadTime)

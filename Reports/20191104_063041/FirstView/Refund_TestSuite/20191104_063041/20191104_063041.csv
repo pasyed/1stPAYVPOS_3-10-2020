@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Refund_TestSuite,Firefox 70.0,,,2019-11-04 06:30:45,2019-11-04 06:32:01,1m - 15.757s,INCOMPLETE
+,,,,,,,
+Test Cases/FirstView/Refund/TC_Refund_001,Firefox 70.0,,,2019-11-04 06:30:46,2019-11-04 06:32:01,1m - 15.056s,FAILED
+Start listener action : sampleBeforeTestCase,Firefox 70.0,,,2019-11-04 06:30:47,2019-11-04 06:30:47,0.111s,PASSED
+"utilities.SafeActions.openBrowser(URL, [delayForElement])",Firefox 70.0,,,2019-11-04 06:30:47,2019-11-04 06:30:55,8.347s,PASSED
+"pages.Login.login(uName, password)",Firefox 70.0,,,2019-11-04 06:30:55,2019-11-04 06:31:01,5.166s,PASSED
+"callTestCase(findTestCase(""FirstView/Login/TC_SendCode""), [:], STOP_ON_FAILURE)",Firefox 70.0,,,2019-11-04 06:31:01,2019-11-04 06:31:03,2.789s,PASSED
+"callTestCase(findTestCase(""FirstView/Login/TC_FirstView""), [:], STOP_ON_FAILURE)",Firefox 70.0,,,2019-11-04 06:31:03,2019-11-04 06:31:10,6.289s,PASSED
+"switchToWindowTitle(""Transcenter - VPOS"")",Firefox 70.0,,,2019-11-04 06:31:10,2019-11-04 06:31:13,3.817s,PASSED
+delay(delayForElement),Firefox 70.0,,,2019-11-04 06:31:13,2019-11-04 06:31:19,6.014s,PASSED
+"utilities.SafeActions.javascriptclick(findTestObject(""Pages/ForceTransactions/tab_ForceTransactions""), PageLoadTime)",Firefox 70.0,,,2019-11-04 06:31:19,2019-11-04 06:31:20,0.160s,PASSED
+delay(delayForElement),Firefox 70.0,,,2019-11-04 06:31:20,2019-11-04 06:31:26,6.004s,PASSED
+"utilities.SafeActions.safeClickWithoutScroll(findTestObject(""Pages/ForceTransactions/tab_ForceTransactions""), ""Click on FistPayVault tab"", [delayForElement])",Firefox 70.0,,,2019-11-04 06:31:26,2019-11-04 06:31:27,1.184s,PASSED
+"pages.Sale.verifyIfEntryModeIsChecked(tabName, entryModeCheckBox, delayBetweenTestSteps)",Firefox 70.0,,,2019-11-04 06:31:27,2019-11-04 06:32:01,34.248s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 70.0,,,2019-11-04 06:32:01,2019-11-04 06:32:01,0.008s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 70.0,,,2019-11-04 06:32:01,2019-11-04 06:32:01,0.002s,PASSED

@@ -64,18 +64,19 @@ public class SafeActions {
 			waitTime = syncObj.getWaitTime(optionWaitTime)
 			WebUI.waitForElementPresent(testObj, waitTime)
 			//if(!WebUI.verifyElementPresent(testObj, waitTime))
-			WebUI.scrollToElement(testObj, waitTime)
-			if(WebUI.verifyElementPresent(testObj,waitTime)){
+
+			if(WebUI.verifyElementPresent(testObj, waitTime, FailureHandling.OPTIONAL)){
+				//WebUI.scrollToElement(testObj, waitTime)
 				highLightElement(testObj,waitTime)
 				WebUI.click(testObj)
 				WebUI.setText(testObj, text)
 			}
 			else{
-				KeywordUtil.markError(syncObj.getTestCaseName()+"unable to enter"+ text +" in "+friendlyWebElementName+" in time -"+waitTime+"seconds")
+				KeywordUtil.markWarning(syncObj.getTestCaseName()+"unable to enter"+ text +" in "+friendlyWebElementName+" in time -"+waitTime+"seconds")
 			}
 		}
 		catch(Exception e) {
-			KeywordUtil.markError("unable to enter"+ text +" in "+friendlyWebElementName+" in time -"+waitTime+"seconds")
+			KeywordUtil.markWarning("unable to enter"+ text +" in "+friendlyWebElementName+" in time -"+waitTime+"seconds")
 		}
 	}
 

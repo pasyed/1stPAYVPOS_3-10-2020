@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Refund_TestSuite" time="113" tests="0" failures="0" errors="1">
+    <testsuite name="Refund_TestSuite" tests="0" failures="0" errors="1" time="113" timestamp="2019-11-04 05:41:45" hostname="venkata.annam - FW1-D-DTA-ZENQ1" id="Test Suites/FirstView/Refund_TestSuite">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\VPOS_Git_31-10-2019\\VPOS_Internal\\Reports\\20191104_054117\\FirstView\\Refund_TestSuite\\20191104_054119"/>
+            <property name="logFiles" value="C:\\VPOS_Git_31-10-2019\\VPOS_Internal\\Reports\\20191104_054117\\FirstView\\Refund_TestSuite\\20191104_054119\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="venkata.annam - FW1-D-DTA-ZENQ1"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.2.4"/>
+            <property name="browser" value="Firefox 70.0"/>
+            <property name="hostAddress" value="172.25.52.168"/>
+            <property name="sessionId" value="40b17a46-6a79-4714-a508-00f3ff709b14"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/FirstView/Refund/TC_Refund_001" classname="Test Cases/FirstView/Refund/TC_Refund_001" status="ERROR">
+            <error type="ERROR" message="Test Cases/FirstView/Refund/TC_Refund_001 FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.exception.StepErrorException: Refund_TestSuite.ts:Click on FistPayVault tab is not Clickable&#xD;&#xA;&#x9;at com.kms.katalon.core.util.KeywordUtil.markError(KeywordUtil.java:65)&#xD;&#xA;&#x9;at com.kms.katalon.core.util.KeywordUtil$markError$0.call(Unknown Source)&#xD;&#xA;&#x9;at utilities.SafeActions.waitUntilClickable(SafeActions.groovy:183)&#xD;&#xA;&#x9;at utilities.SafeActions.safeClickWithoutScroll(SafeActions.groovy:137)&#xD;&#xA;&#x9;at utilities.SafeActions.invokeMethod(SafeActions.groovy)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)&#xD;&#xA;&#x9;at TC_Refund_001.run(TC_Refund_001:39)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1572867679762.run(TempTestSuite1572867679762.groovy:35)&#xD;&#xA;"/>
+            <system-out>2019-11-04 05:41:47 - [TEST_CASE][ERROR] - Test Cases/FirstView/Refund/TC_Refund_001: Test Cases/FirstView/Refund/TC_Refund_001 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Refund_TestSuite.ts:Click on FistPayVault tab is not Clickable&#xD;
+	at com.kms.katalon.core.util.KeywordUtil.markError(KeywordUtil.java:65)&#xD;
+	at com.kms.katalon.core.util.KeywordUtil$markError$0.call(Unknown Source)&#xD;
+	at utilities.SafeActions.waitUntilClickable(SafeActions.groovy:183)&#xD;
+	at utilities.SafeActions.safeClickWithoutScroll(SafeActions.groovy:137)&#xD;
+	at utilities.SafeActions.invokeMethod(SafeActions.groovy)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)&#xD;
+	at TC_Refund_001.run(TC_Refund_001:39)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1572867679762.run(TempTestSuite1572867679762.groovy:35)&#xD;
+&#xD;
+&#xD;
+2019-11-04 05:41:48 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null&#xD;
+&#xD;
+2019-11-04 05:41:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null&#xD;
+&#xD;
+2019-11-04 05:41:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null&#xD;
+&#xD;
+2019-11-04 05:41:49 - [TEST_STEP][PASSED] - utilities.SafeActions.openBrowser(URL, [delayForElement]): utilities.SafeActions.openBrowser is PASSED&#xD;
+&#xD;
+2019-11-04 05:41:50 - [MESSAGE][INFO] - Opening Browser&#xD;
+&#xD;
+2019-11-04 05:41:51 - [MESSAGE][INFO] - Starting 'Firefox' driver&#xD;
+&#xD;
+2019-11-04 05:41:52 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-11-04 05:42:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://q-www-firstview-net.faps.net/MVC/Account/Login'&#xD;
+&#xD;
+2019-11-04 05:42:51 - [MESSAGE][PASSED] - Current window maximized&#xD;
+&#xD;
+2019-11-04 05:42:51 - [MESSAGE][INFO] - Browser Launched Successfully&#xD;
+&#xD;
+2019-11-04 05:42:51 - [MESSAGE][PASSED] - utilities.SafeActions.openBrowser is PASSED&#xD;
+&#xD;
+2019-11-04 05:42:51 - [TEST_STEP][PASSED] - pages.Login.login(uName, password): pages.Login.login is PASSED&#xD;
+&#xD;
+2019-11-04 05:42:52 - [MESSAGE][PASSED] - Object 'Object Repository/Pages/Login/userName' is present&#xD;
+&#xD;
+2019-11-04 05:42:52 - [MESSAGE][PASSED] - Object 'Object Repository/Pages/Login/userName' is present&#xD;
+&#xD;
+2019-11-04 05:42:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Pages/Login/userName' is clicked on&#xD;
+&#xD;
+2019-11-04 05:42:54 - [MESSAGE][PASSED] - Text 'ZenQRetail' is set on object 'Object Repository/Pages/Login/userName'&#xD;
+&#xD;
+2019-11-04 05:42:55 - [MESSAGE][PASSED] - Object 'Object Repository/Pages/Login/password' is present&#xD;
+&#xD;
+2019-11-04 05:42:55 - [MESSAGE][PASSED] - Object 'Object Repository/Pages/Login/password' is present&#xD;
+&#xD;
+2019-11-04 05:42:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Pages/Login/password' is clicked on&#xD;
+&#xD;
+2019-11-04 05:42:56 - [MESSAGE][PASSED] - Text 'P@ssword1' is set on object 'Object Repository/Pages/Login/password'&#xD;
+&#xD;
+2019-11-04 05:42:56 - [MESSAGE][INFO] - Safe Click Without scroll&#xD;
+&#xD;
+2019-11-04 05:42:56 - [MESSAGE][INFO] - Refund_TestSuite.ts:waiting until Click on Login is Clickable&#xD;
+&#xD;
+2019-11-04 05:42:56 - [MESSAGE][PASSED] - Object 'Object Repository/Pages/Login/login' is clickable&#xD;
+&#xD;
+2019-11-04 05:42:56 - [MESSAGE][PASSED] - Object 'Object Repository/Pages/Login/login' is visible&#xD;
+&#xD;
+2019-11-04 05:42:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Pages/Login/login' is clicked on&#xD;
+&#xD;
+2019-11-04 05:42:59 - [MESSAGE][INFO] - Refund_TestSuite.ts: click on the Click on Login&#xD;
+&#xD;
+2019-11-04 05:42:59 - [MESSAGE][PASSED] - pages.Login.login is PASSED&#xD;
+&#xD;
+2019-11-04 05:42:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("FirstView/Login/TC_SendCode"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/FirstView/Login/TC_SendCode' successfully&#xD;
+&#xD;
+2019-11-04 05:43:00 - [TEST_CASE][PASSED] - Test Cases/FirstView/Login/TC_SendCode: Test Cases/FirstView/Login/TC_SendCode&#xD;
+&#xD;
+2019-11-04 05:43:00 - [TEST_STEP][PASSED] - flag = pages.SendCode.verifyPage(): pages.SendCode.verifyPage is PASSED&#xD;
+&#xD;
+2019-11-04 05:43:01 - [MESSAGE][PASSED] - Object 'Object Repository/Pages/SendCodeToValidate/header_SendCodeToValidate' is present and visible in viewport&#xD;
+&#xD;
+2019-11-04 05:43:01 - [MESSAGE][PASSED] - pages.SendCode.verifyPage is PASSED&#xD;
+&#xD;
+2019-11-04 05:43:01 - [TEST_STEP][PASSED] - if (flag): pages.SendCode.clickonUserSettings is PASSED&#xD;
+&#xD;
+2019-11-04 05:43:01 - [TEST_STEP][PASSED] - pages.SendCode.clickonUserSettings(): pages.SendCode.clickonUserSettings is PASSED&#xD;
+&#xD;
+2019-11-04 05:43:01 - [MESSAGE][PASSED] - Object 'Object Repository/Pages/SendCodeToValidate/link_UserSettings' is present&#xD;
+&#xD;
+2019-11-04 05:43:01 - [MESSAGE][PASSED] - Object 'Object Repository/Pages/SendCodeToValidate/link_UserSettings' is visible&#xD;
+&#xD;
+2019-11-04 05:43:01 - [MESSAGE][INFO] - Refund_TestSuite.ts:waiting until Click on User Settings is Clickable&#xD;
+&#xD;
+2019-11-04 05:43:01 - [MESSAGE][PASSED] - Object 'Object Repository/Pages/SendCodeToValidate/link_UserSettings' is clickable&#xD;
+&#xD;
+2019-11-04 05:43:01 - [MESSAGE][PASSED] - Object 'Object Repository/Pages/SendCodeToValidate/link_UserSettings' is visible&#xD;
+&#xD;
+2019-11-04 05:43:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Pages/SendCodeToValidate/link_UserSettings' is clicked on&#xD;
+&#xD;
+2019-11-04 05:43:04 - [MESSAGE][INFO] - Refund_TestSuite.ts: Clicked on the Click on User Settings&#xD;
+&#xD;
+2019-11-04 05:43:04 - [MESSAGE][PASSED] - pages.SendCode.clickonUserSettings is PASSED&#xD;
+&#xD;
+2019-11-04 05:43:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FirstView/Login/TC_SendCode' successfully&#xD;
+&#xD;
+2019-11-04 05:43:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("FirstView/Login/TC_FirstView"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/FirstView/Login/TC_FirstView' successfully&#xD;
+&#xD;
+2019-11-04 05:43:04 - [TEST_CASE][PASSED] - Test Cases/FirstView/Login/TC_FirstView: Test Cases/FirstView/Login/TC_FirstView&#xD;
+&#xD;
+2019-11-04 05:43:04 - [TEST_STEP][NOT_RUN] - utilities.SafeActions.safeClickWithoutScroll(findTestObject("Pages/FirstView/link_Home"), "Click on Home button in First View screen", [PageLoadTime]): NOT_RUN: utilities.SafeActions.safeClickWithoutScroll(findTestObject("Pages/FirstView/link_Home"), "Click on Home button in First View screen", [PageLoadTime])&#xD;
+&#xD;
+2019-11-04 05:43:04 - [MESSAGE][NOT_RUN] - NOT_RUN: utilities.SafeActions.safeClickWithoutScroll(findTestObject("Pages/FirstView/link_Home"), "Click on Home button in First View screen", [PageLoadTime])&#xD;
+&#xD;
+2019-11-04 05:43:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)&#xD;
+&#xD;
+2019-11-04 05:43:08 - [MESSAGE][PASSED] - Delayed 3 second(s)&#xD;
+&#xD;
+2019-11-04 05:43:08 - [TEST_STEP][PASSED] - utilities.SafeActions.javascriptclick(findTestObject("Pages/FirstView/link_Home"), delayForElement): utilities.SafeActions.javascriptclick is PASSED&#xD;
+&#xD;
+2019-11-04 05:43:08 - [MESSAGE][PASSED] - utilities.SafeActions.javascriptclick is PASSED&#xD;
+&#xD;
+2019-11-04 05:43:08 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClickWithoutScroll(findTestObject("Pages/FirstView/link_VPOS"), "Click on VPOS button in First View screen", [PageLoadTime]): utilities.SafeActions.safeClickWithoutScroll is PASSED&#xD;
+&#xD;
+2019-11-04 05:43:08 - [MESSAGE][INFO] - Safe Click Without scroll&#xD;
+&#xD;
+2019-11-04 05:43:08 - [MESSAGE][INFO] - Refund_TestSuite.ts:waiting until Click on VPOS button in First View screen is Clickable&#xD;
+&#xD;
+2019-11-04 05:43:09 - [MESSAGE][PASSED] - Object 'Object Repository/Pages/FirstView/link_VPOS' is clickable&#xD;
+&#xD;
+2019-11-04 05:43:09 - [MESSAGE][PASSED] - Object 'Object Repository/Pages/FirstView/link_VPOS' is visible&#xD;
+&#xD;
+2019-11-04 05:43:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Pages/FirstView/link_VPOS' is clicked on&#xD;
+&#xD;
+2019-11-04 05:43:10 - [MESSAGE][INFO] - Refund_TestSuite.ts: click on the Click on VPOS button in First View screen&#xD;
+&#xD;
+2019-11-04 05:43:10 - [MESSAGE][PASSED] - utilities.SafeActions.safeClickWithoutScroll is PASSED&#xD;
+&#xD;
+2019-11-04 05:43:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FirstView/Login/TC_FirstView' successfully&#xD;
+&#xD;
+2019-11-04 05:43:10 - [TEST_STEP][PASSED] - switchToWindowTitle("Transcenter - VPOS"): Switched to window with title: 'Transcenter - VPOS'&#xD;
+&#xD;
+2019-11-04 05:43:14 - [MESSAGE][PASSED] - Switched to window with title: 'Transcenter - VPOS'&#xD;
+&#xD;
+2019-11-04 05:43:14 - [TEST_STEP][PASSED] - delay(delayForElement): Delayed 6 second(s)&#xD;
+&#xD;
+2019-11-04 05:43:20 - [MESSAGE][PASSED] - Delayed 6 second(s)&#xD;
+&#xD;
+2019-11-04 05:43:20 - [TEST_STEP][PASSED] - utilities.SafeActions.javascriptclick(findTestObject("Pages/ForceTransactions/tab_ForceTransactions"), PageLoadTime): utilities.SafeActions.javascriptclick is PASSED&#xD;
+&#xD;
+2019-11-04 05:43:20 - [MESSAGE][PASSED] - utilities.SafeActions.javascriptclick is PASSED&#xD;
+&#xD;
+2019-11-04 05:43:20 - [TEST_STEP][PASSED] - delay(delayForElement): Delayed 6 second(s)&#xD;
+&#xD;
+2019-11-04 05:43:26 - [MESSAGE][PASSED] - Delayed 6 second(s)&#xD;
+&#xD;
+2019-11-04 05:43:26 - [TEST_STEP][ERROR] - utilities.SafeActions.safeClickWithoutScroll(findTestObject("Pages/ForceTransactions/tab_ForceTransactions"), "Click on FistPayVault tab", [delayForElement]): com.kms.katalon.core.exception.StepErrorException: Refund_TestSuite.ts:Click on FistPayVault tab is not Clickable&#xD;
+&#xD;
+2019-11-04 05:43:27 - [MESSAGE][INFO] - Safe Click Without scroll&#xD;
+&#xD;
+2019-11-04 05:43:27 - [MESSAGE][INFO] - Refund_TestSuite.ts:waiting until Click on FistPayVault tab is Clickable&#xD;
+&#xD;
+2019-11-04 05:43:38 - [MESSAGE][WARNING] - Cannot take screenshot&#xD;
+&#xD;
+2019-11-04 05:43:38 - [MESSAGE][FAILED] - Unable to wait for object 'Object Repository/Pages/ForceTransactions/tab_ForceTransactions' to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to wait for object 'Object Repository/Pages/ForceTransactions/tab_ForceTransactions' to be clickable&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.waitForElementClickable(WaitForElementClickableKeyword.groovy:108)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.execute(WaitForElementClickableKeyword.groovy:68)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementClickable(WebUiBuiltInKeywords.groovy:500)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementClickable$5.call(Unknown Source)&#xD;
+	at utilities.SafeActions.waitUntilClickable(SafeActions.groovy:173)&#xD;
+	at utilities.SafeActions.safeClickWithoutScroll(SafeActions.groovy:137)&#xD;
+	at utilities.SafeActions.invokeMethod(SafeActions.groovy)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)&#xD;
+	at TC_Refund_001.run(TC_Refund_001:39)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1572867679762.run(TempTestSuite1572867679762.groovy:35)&#xD;
+Caused by: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FW1-D-DTA-ZENQ1', ip: '172.25.52.168', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191016161957, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 68040, moz:profile: C:\Users\venkata.annam\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 40b17a46-6a79-4714-a508-00f3ff709b14
+*** Element info: {Using=xpath, value=//span[text()='Force Transaction']}&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:28)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)&#xD;
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:761)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword$_waitForElementClickable_closure1.doCall(WaitForElementClickableKeyword.groovy:80)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword$_waitForElementClickable_closure1.call(WaitForElementClickableKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.waitForElementClickable(WaitForElementClickableKeyword.groovy:108)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.execute(WaitForElementClickableKeyword.groovy:68)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementClickable(WebUiBuiltInKeywords.groovy:500)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementClickable$5.call(Unknown Source)&#xD;
+	at utilities.SafeActions.waitUntilClickable(SafeActions.groovy:173)&#xD;
+	at utilities.SafeActions.safeClickWithoutScroll(SafeActions.groovy:137)&#xD;
+	at utilities.SafeActions.invokeMethod(SafeActions.groovy)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)&#xD;
+	at Script1568967431704.run(Script1568967431704.groovy:39)&#xD;
+	... 13 more&#xD;
+)&#xD;
+&#xD;
+2019-11-04 05:43:38 - [MESSAGE][FAILED] - Refund_TestSuite.ts:Click on FistPayVault tab is not clickable in time - 6seconds&#xD;
+&#xD;
+2019-11-04 05:43:38 - [MESSAGE][ERROR] - com.kms.katalon.core.exception.StepErrorException: Refund_TestSuite.ts:Click on FistPayVault tab is not Clickable&#xD;
+&#xD;
+2019-11-04 05:43:38 - [TEST_STEP][FAILED] - pages.Sale.verifyIfEntryModeIsChecked(tabName, entryModeCheckBox, delayBetweenTestSteps): Unable to check object ''&#xD;
+&#xD;
+2019-11-04 05:43:38 - [MESSAGE][WARNING] - Cannot take screenshot&#xD;
+&#xD;
+2019-11-04 05:43:38 - [MESSAGE][WARNING] - Unable to verify object '' is checked (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object '' is checked&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1352)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementChecked$9.call(Unknown Source)&#xD;
+	at pages.Sale.verifyIfEntryModeIsChecked(Sale.groovy:49)&#xD;
+	at pages.Sale.invokeMethod(Sale.groovy)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)&#xD;
+	at TC_Refund_001.run(TC_Refund_001:41)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1572867679762.run(TempTestSuite1572867679762.groovy:35)&#xD;
+Caused by: org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FW1-D-DTA-ZENQ1', ip: '172.25.52.168', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191016161957, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 68040, moz:profile: C:\Users\venkata.annam\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 40b17a46-6a79-4714-a508-00f3ff709b14
+*** Element info: {Using=xpath, value=//section[@id="p-Refund"]//*[text()="Manually Keyed"]/ancestor::div[1]/input}&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:28)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)&#xD;
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:761)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:78)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1352)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementChecked$9.call(Unknown Source)&#xD;
+	at pages.Sale.verifyIfEntryModeIsChecked(Sale.groovy:49)&#xD;
+	at pages.Sale.invokeMethod(Sale.groovy)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)&#xD;
+	at Script1568967431704.run(Script1568967431704.groovy:41)&#xD;
+	... 13 more&#xD;
+)&#xD;
+&#xD;
+2019-11-04 05:43:38 - [MESSAGE][WARNING] - Cannot take screenshot&#xD;
+&#xD;
+2019-11-04 05:43:38 - [MESSAGE][FAILED] - Unable to check object '' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to check object ''&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1039)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$10.call(Unknown Source)&#xD;
+	at pages.Sale.verifyIfEntryModeIsChecked(Sale.groovy:61)&#xD;
+	at pages.Sale.invokeMethod(Sale.groovy)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)&#xD;
+	at TC_Refund_001.run(TC_Refund_001:41)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1572867679762.run(TempTestSuite1572867679762.groovy:35)&#xD;
+Caused by: org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FW1-D-DTA-ZENQ1', ip: '172.25.52.168', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191016161957, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 68040, moz:profile: C:\Users\venkata.annam\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 40b17a46-6a79-4714-a508-00f3ff709b14
+*** Element info: {Using=xpath, value=//section[@id="p-Refund"]//*[text()="Manually Keyed"]/ancestor::div[1]/input}&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:28)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)&#xD;
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:761)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:77)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1039)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$10.call(Unknown Source)&#xD;
+	at pages.Sale.verifyIfEntryModeIsChecked(Sale.groovy:61)&#xD;
+	at pages.Sale.invokeMethod(Sale.groovy)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)&#xD;
+	at Script1568967431704.run(Script1568967431704.groovy:41)&#xD;
+	... 13 more&#xD;
+)&#xD;
+&#xD;
+2019-11-04 05:43:38 - [MESSAGE][FAILED] - Unable to check object ''&#xD;
+&#xD;
+2019-11-04 05:43:39 - [TEST_STEP][ERROR] - Start listener action : sampleAfterTestCase: com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot&#xD;
+&#xD;
+2019-11-04 05:43:39 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null&#xD;
+&#xD;
+2019-11-04 05:43:39 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null&#xD;
+&#xD;
+2019-11-04 05:43:39 - [TEST_STEP][PASSED] - testCaseName = testCaseContext.getTestCaseId(): null&#xD;
+&#xD;
+2019-11-04 05:43:39 - [TEST_STEP][PASSED] - strCount = testCaseName.lastIndexOf("/"): null&#xD;
+&#xD;
+2019-11-04 05:43:39 - [TEST_STEP][PASSED] - testCaseName = testCaseName.substring(strCount): null&#xD;
+&#xD;
+2019-11-04 05:43:39 - [TEST_STEP][PASSED] - println(testCaseName): null&#xD;
+&#xD;
+2019-11-04 05:43:39 - [TEST_STEP][ERROR] - if (getTestCaseStatus().equalsIgnoreCase("Error")): com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot&#xD;
+&#xD;
+2019-11-04 05:43:39 - [TEST_STEP][ERROR] - takeScreenshot(getReportFolder() + "/Screenshots/" + testCaseName + ".png"): com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot&#xD;
+&#xD;
+2019-11-04 05:43:39 - [MESSAGE][WARNING] - Cannot take screenshot&#xD;
+&#xD;
+2019-11-04 05:43:39 - [MESSAGE][FAILED] - Cannot take screenshot (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:88)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:71)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.takeScreenshot(WebUiBuiltInKeywords.groovy:2881)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$takeScreenshot$11.call(Unknown Source)&#xD;
+	at NewTestListener_1.sampleAfterTestCase(NewTestListener_1.groovy:49)&#xD;
+	at NewTestListener_1.invokeMethod(NewTestListener_1.groovy)&#xD;
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)&#xD;
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)&#xD;
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)&#xD;
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)&#xD;
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)&#xD;
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:249)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1572867679762.run(TempTestSuite1572867679762.groovy:35)&#xD;
+Caused by: org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FW1-D-DTA-ZENQ1', ip: '172.25.52.168', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191016161957, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 68040, moz:profile: C:\Users\venkata.annam\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 40b17a46-6a79-4714-a508-00f3ff709b14&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:28)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)&#xD;
+	at com.kms.katalon.core.webui.util.FileUtil.takesScreenshot(FileUtil.java:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:89)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 20 more&#xD;
+)&#xD;
+&#xD;
+2019-11-04 05:43:39 - [MESSAGE][ERROR] - com.kms.katalon.core.exception.StepFailedException: Cannot take screenshot&#xD;
+&#xD;
+2019-11-04 05:43:39 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err>2019-11-04 05:41:47 - [TEST_CASE][ERROR] - Test Cases/FirstView/Refund/TC_Refund_001: Test Cases/FirstView/Refund/TC_Refund_001 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Refund_TestSuite.ts:Click on FistPayVault tab is not Clickable&#xD;
+	at com.kms.katalon.core.util.KeywordUtil.markError(KeywordUtil.java:65)&#xD;
+	at com.kms.katalon.core.util.KeywordUtil$markError$0.call(Unknown Source)&#xD;
+	at utilities.SafeActions.waitUntilClickable(SafeActions.groovy:183)&#xD;
+	at utilities.SafeActions.safeClickWithoutScroll(SafeActions.groovy:137)&#xD;
+	at utilities.SafeActions.invokeMethod(SafeActions.groovy)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)&#xD;
+	at TC_Refund_001.run(TC_Refund_001:39)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1572867679762.run(TempTestSuite1572867679762.groovy:35)</system-err>
+        </testcase>
+        <system-out>2019-11-04 05:41:45 - [TEST_SUITE][INCOMPLETE] - Refund_TestSuite: null</system-out>
+        <system-err>2019-11-04 05:41:45 - [TEST_SUITE][INCOMPLETE] - Refund_TestSuite: null</system-err>
+    </testsuite>
+</testsuites>

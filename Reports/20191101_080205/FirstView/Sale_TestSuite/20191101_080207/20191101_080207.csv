@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sale_TestSuite,,,,2019-11-01 08:02:29,2019-11-01 08:03:03,33.679s,INCOMPLETE
+,,,,,,,
+Test Cases/FirstView/Sale/VPOS_Sale_Transaction_ECommerce_No_AdditionalPrompting,,,,2019-11-01 08:02:30,2019-11-01 08:02:39,8.971s,ERROR
+Start listener action : sampleBeforeTestCase,,,,2019-11-01 08:02:31,2019-11-01 08:02:31,0.016s,PASSED
+"utilities.SafeActions.openBrowser(URL, [PageLoadTime])",,,,2019-11-01 08:02:32,2019-11-01 08:02:32,0.085s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-11-01 08:02:32,2019-11-01 08:02:39,7.387s,ERROR
+Start listener action : sampleAfterTestCase,,,,2019-11-01 08:02:39,2019-11-01 08:02:39,0.002s,PASSED
+,,,,,,,
+Test Cases/FirstView/Sale/VPOS_Sale_Transaction_Moto_No_AdditionalPrompting,,,,2019-11-01 08:02:39,2019-11-01 08:02:43,3.621s,ERROR
+Start listener action : sampleBeforeTestCase,,,,2019-11-01 08:02:40,2019-11-01 08:02:40,0.035s,PASSED
+"utilities.SafeActions.openBrowser(URL, [PageLoadTime])",,,,2019-11-01 08:02:43,2019-11-01 08:02:43,0.002s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-11-01 08:02:43,2019-11-01 08:02:43,0.177s,ERROR
+Start listener action : sampleAfterTestCase,,,,2019-11-01 08:02:43,2019-11-01 08:02:43,0.005s,PASSED
+,,,,,,,
+Test Cases/FirstView/Sale/VPOS_Sale_Transaction_Retail_No_AdditionalPrompting,,,,2019-11-01 08:02:43,2019-11-01 08:02:49,5.766s,ERROR
+Start listener action : sampleBeforeTestCase,,,,2019-11-01 08:02:44,2019-11-01 08:02:44,0.003s,PASSED
+"utilities.SafeActions.openBrowser(URL, [delayForElement])",,,,2019-11-01 08:02:49,2019-11-01 08:02:49,0.004s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-11-01 08:02:49,2019-11-01 08:02:49,0.069s,ERROR
+Start listener action : sampleAfterTestCase,,,,2019-11-01 08:02:49,2019-11-01 08:02:49,0.000s,PASSED
+,,,,,,,
+Test Cases/FirstView/Sale/VPOS_Sale_Transaction_Retail_RecurringPayment,,,,2019-11-01 08:02:49,2019-11-01 08:02:54,4.909s,ERROR
+Start listener action : sampleBeforeTestCase,,,,2019-11-01 08:02:50,2019-11-01 08:02:50,0.002s,PASSED
+"utilities.SafeActions.openBrowser(URL, [delayForElement])",,,,2019-11-01 08:02:53,2019-11-01 08:02:53,0.003s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-11-01 08:02:53,2019-11-01 08:02:54,0.584s,ERROR
+Start listener action : sampleAfterTestCase,,,,2019-11-01 08:02:54,2019-11-01 08:02:54,0.001s,PASSED
+,,,,,,,
+Test Cases/FirstView/Sale/VPOS_Sale_Transaction_Retail_SaveToVault,,,,2019-11-01 08:02:54,2019-11-01 08:02:58,3.758s,ERROR
+Start listener action : sampleBeforeTestCase,,,,2019-11-01 08:02:55,2019-11-01 08:02:55,0.005s,PASSED
+"utilities.SafeActions.openBrowser(URL, [PageLoadTime])",,,,2019-11-01 08:02:58,2019-11-01 08:02:58,0.001s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-11-01 08:02:58,2019-11-01 08:02:58,0.580s,ERROR
+Start listener action : sampleAfterTestCase,,,,2019-11-01 08:02:58,2019-11-01 08:02:58,0.002s,PASSED
+,,,,,,,
+Test Cases/FirstView/Sale/VPOS_Sale_Transaction_Retail_SetAsFuturePayment,,,,2019-11-01 08:02:58,2019-11-01 08:03:03,4.417s,ERROR
+Start listener action : sampleBeforeTestCase,,,,2019-11-01 08:03:00,2019-11-01 08:03:00,0.002s,PASSED
+"utilities.SafeActions.openBrowser(URL, [delayForElement])",,,,2019-11-01 08:03:02,2019-11-01 08:03:02,0.001s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-11-01 08:03:02,2019-11-01 08:03:03,0.648s,ERROR
+Start listener action : sampleAfterTestCase,,,,2019-11-01 08:03:03,2019-11-01 08:03:03,0.000s,PASSED

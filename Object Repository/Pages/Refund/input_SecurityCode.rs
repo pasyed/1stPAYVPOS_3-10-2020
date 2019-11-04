@@ -6,12 +6,11 @@
    <elementGuidId>2f04a8f8-4e4e-4c02-91f5-61b7017c06ec</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//section[@id='p-Refund']//input[contains(@id,'security-code')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//form[@id='form-refund-card-info']//input[@id='text-security-code']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

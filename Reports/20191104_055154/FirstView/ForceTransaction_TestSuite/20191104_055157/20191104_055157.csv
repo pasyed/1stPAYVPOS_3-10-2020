@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ForceTransaction_TestSuite,Firefox 70.0,,,2019-11-04 05:52:23,2019-11-04 05:53:45,1m - 21.635s,INCOMPLETE
+,,,,,,,
+Test Cases/FirstView/Force Transactions/VPOS_ForceTransaction_CardPresent_Or_Not_Present,Firefox 70.0,,,2019-11-04 05:52:24,2019-11-04 05:53:45,1m - 20.615s,ERROR
+Start listener action : sampleBeforeTestCase,Firefox 70.0,,,2019-11-04 05:52:25,2019-11-04 05:52:25,0.018s,PASSED
+"utilities.SafeActions.openBrowser(URL, [delayForElement])",Firefox 70.0,,,2019-11-04 05:52:25,2019-11-04 05:52:59,33.874s,PASSED
+"pages.Login.login(uName, password)",Firefox 70.0,,,2019-11-04 05:52:59,2019-11-04 05:53:07,7.780s,PASSED
+"callTestCase(findTestCase(""FirstView/Login/TC_SendCode""), [:], STOP_ON_FAILURE)",Firefox 70.0,,,2019-11-04 05:53:07,2019-11-04 05:53:12,5.519s,PASSED
+"callTestCase(findTestCase(""FirstView/Login/TC_FirstView""), [:], STOP_ON_FAILURE)",Firefox 70.0,,,2019-11-04 05:53:12,2019-11-04 05:53:22,9.567s,PASSED
+"switchToWindowTitle(""Transcenter - VPOS"")",Firefox 70.0,,,2019-11-04 05:53:22,2019-11-04 05:53:25,3.352s,PASSED
+delay(delayForElement),Firefox 70.0,,,2019-11-04 05:53:25,2019-11-04 05:53:31,6.005s,PASSED
+"utilities.SafeActions.javascriptclick(findTestObject(""Pages/ForceTransactions/tab_ForceTransactions""), PageLoadTime)",Firefox 70.0,,,2019-11-04 05:53:31,2019-11-04 05:53:32,0.404s,PASSED
+delay(delayForElement),Firefox 70.0,,,2019-11-04 05:53:32,2019-11-04 05:53:38,6.003s,PASSED
+"utilities.SafeActions.safeClickWithoutScroll(findTestObject(""Pages/ForceTransactions/tab_ForceTransactions""), ""Click on Force Transaction tab"", [delayForElement])",Firefox 70.0,,,2019-11-04 05:53:38,2019-11-04 05:53:39,0.952s,ERROR
+delay(delayForElement),Firefox 70.0,,,2019-11-04 05:53:39,2019-11-04 05:53:45,6.005s,PASSED
+"pages.Sale.verifyIfEntryModeIsChecked(tabName, entryModeCheckBox, delayBetweenTestSteps)",Firefox 70.0,,,2019-11-04 05:53:45,2019-11-04 05:53:45,0.143s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 70.0,,,2019-11-04 05:53:45,2019-11-04 05:53:45,0.047s,ERROR
+Start listener action : sampleAfterTestCase,Firefox 70.0,,,2019-11-04 05:53:45,2019-11-04 05:53:45,0.001s,PASSED

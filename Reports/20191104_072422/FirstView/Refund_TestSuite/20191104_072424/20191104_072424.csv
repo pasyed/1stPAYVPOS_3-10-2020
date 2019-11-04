@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Refund_TestSuite,Firefox 70.0,,,2019-11-04 07:24:48,2019-11-04 07:26:10,1m - 22.043s,INCOMPLETE
+,,,,,,,
+Test Cases/FirstView/Refund/TC_Refund_001,Firefox 70.0,,,2019-11-04 07:24:49,2019-11-04 07:26:10,1m - 21.146s,ERROR
+Start listener action : sampleBeforeTestCase,Firefox 70.0,,,2019-11-04 07:24:50,2019-11-04 07:24:50,0.054s,PASSED
+"utilities.SafeActions.openBrowser(URL, [delayForElement])",Firefox 70.0,,,2019-11-04 07:24:51,2019-11-04 07:25:25,33.537s,PASSED
+"pages.Login.login(uName, password)",Firefox 70.0,,,2019-11-04 07:25:25,2019-11-04 07:25:32,6.747s,PASSED
+"callTestCase(findTestCase(""FirstView/Login/TC_SendCode""), [:], STOP_ON_FAILURE)",Firefox 70.0,,,2019-11-04 07:25:32,2019-11-04 07:25:36,4.906s,PASSED
+"callTestCase(findTestCase(""FirstView/Login/TC_FirstView""), [:], STOP_ON_FAILURE)",Firefox 70.0,,,2019-11-04 07:25:36,2019-11-04 07:25:46,9.411s,PASSED
+"switchToWindowTitle(""Transcenter - VPOS"")",Firefox 70.0,,,2019-11-04 07:25:46,2019-11-04 07:25:49,3.621s,PASSED
+delay(delayForElement),Firefox 70.0,,,2019-11-04 07:25:49,2019-11-04 07:25:55,6.012s,PASSED
+"utilities.SafeActions.javascriptclick(findTestObject(""Pages/Refund/tab_Refund""), PageLoadTime)",Firefox 70.0,,,2019-11-04 07:25:55,2019-11-04 07:25:58,2.626s,PASSED
+delay(delayForElement),Firefox 70.0,,,2019-11-04 07:25:58,2019-11-04 07:26:04,6.009s,PASSED
+"utilities.SafeActions.safeClickWithoutScroll(findTestObject(""Pages/Refund/tab_Refund""), ""Click on Refundtab"", [delayForElement])",Firefox 70.0,,,2019-11-04 07:26:04,2019-11-04 07:26:10,5.683s,ERROR
+"pages.Sale.verifyIfEntryModeIsChecked(tabName, entryModeCheckBox, delayBetweenTestSteps)",Firefox 70.0,,,2019-11-04 07:26:10,2019-11-04 07:26:10,0.110s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 70.0,,,2019-11-04 07:26:10,2019-11-04 07:26:10,0.054s,ERROR
+Start listener action : sampleAfterTestCase,Firefox 70.0,,,2019-11-04 07:26:10,2019-11-04 07:26:10,0.001s,PASSED

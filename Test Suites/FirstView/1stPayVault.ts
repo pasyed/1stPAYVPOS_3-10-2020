@@ -14,7 +14,7 @@
       <guid>4eb5e30c-838c-44b1-88fe-5057db891ba2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FirstView/FirstPayVault/TC_1st_Pay_Vault_001</testCaseId>
+      <testCaseId>Test Cases/FirstView/FirstPayVault/VPOS_1stPayVault_Create_Vault_Retail</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -74,7 +74,7 @@
       <guid>39433a52-5a1f-4147-bc41-3da19452eb82</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FirstView/FirstPayVault/TC_1st_Pay_Vault_002</testCaseId>
+      <testCaseId>Test Cases/FirstView/FirstPayVault/VPOS_1stPayVault_Verify_SaleScreen_On_Clicking_RunASale_Retail</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -128,7 +128,7 @@
       <guid>3a7e4ea2-0015-4d7b-b4eb-ac749947f02c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FirstView/FirstPayVault/TC_1st_Pay_Vault_003</testCaseId>
+      <testCaseId>Test Cases/FirstView/FirstPayVault/VPOS_1stPayVault_Verify_TransactionCompleteScreen_on_Run_Sale_WithThis_Vault_Retail</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -188,7 +188,7 @@
       <guid>293a1168-60ab-4688-9f22-d2b9c2a346d7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FirstView/FirstPayVault/TC_1st_Pay_Vault_004</testCaseId>
+      <testCaseId>Test Cases/FirstView/FirstPayVault/VPOS_1stPayVault_Validate_CreatedVault_Presence_By_SearchVault_Retail</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -248,7 +248,7 @@
       <guid>a098dedf-254c-4292-9a46-adb5fb4b6b76</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FirstView/FirstPayVault/TC_1st_Pay_Vault_005</testCaseId>
+      <testCaseId>Test Cases/FirstView/FirstPayVault/VPOS_1stPayVault_UpdateCardMonth_By_Clicking_Edit_On_SearchedVault</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -314,7 +314,7 @@
       <guid>89dd19ba-eec7-4dfe-a7a6-f698d6695c5c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FirstView/FirstPayVault/TC_1st_Pay_Vault_006</testCaseId>
+      <testCaseId>Test Cases/FirstView/FirstPayVault/VPOS_1stPayVault_DeleteVault_By_Clicking_Delete_on_SearchedVault_Retail</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -374,7 +374,7 @@
       <guid>ff27b2d0-1458-4f18-9406-8d8ae93f7cb1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/FirstView/FirstPayVault/TC_1st_Pay_Vault_007</testCaseId>
+      <testCaseId>Test Cases/FirstView/FirstPayVault/VPOS_1stPayVault_SetRecurringPayment_By_Clicking_MakePayment_On_SearchedVault</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -417,36 +417,48 @@
          <value></value>
          <variableId>b29faa2e-2ba5-4cd5-b44e-bc0396b01531</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d06c285d-9338-4814-a09c-744af6ca1fae</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1eff508d-29b3-42bf-b2a1-65563fe15f11</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>018d096f-c5e0-4137-87a3-3fc9af3207af</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4b1d7002-6f8c-43cf-82b2-d4a0d3ea8757</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f4fae87c-399f-4a5d-844e-6ae02ddcd42f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>81a5c728-a96e-495d-b053-5191286c819a</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>a984a7e0-420b-485c-b22d-e69b4789a1da</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FirstView/FirstPayVault/TC_1st_Pay_Vault_009</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>0cdaff34-3548-409e-9223-43f203784e8d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>ab3940db-98ba-491b-84bb-598071157871</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>1f2c29d6-4e5d-42a6-b83e-855e14f286e1</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>d3ac6547-142d-4009-9fec-e631cd44b0c6</variableId>
-      </variableLink>
+      <testCaseId>Test Cases/FirstView/FirstPayVault/VPOS_1stPayVault_Search_Vault_By_Date_Retail</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -500,7 +512,7 @@
       <guid>14ba770b-23a6-4f79-8530-ec01ba938d0d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FirstView/FirstPayVault/TC_1st_Pay_Vault_010</testCaseId>
+      <testCaseId>Test Cases/FirstView/FirstPayVault/VPOS_1stPayVault_Search_Vault_By_CardNumber_Retail</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -554,7 +566,7 @@
       <guid>26fbe454-0d5b-40e9-8722-e1cbc087926d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FirstView/FirstPayVault/TC_1st_Pay_Vault_011</testCaseId>
+      <testCaseId>Test Cases/FirstView/FirstPayVault/VPOS_1stPayVault_Search_Vault_By_VaultReferenceNumber_Retail</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

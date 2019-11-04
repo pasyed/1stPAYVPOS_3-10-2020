@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ForceTransaction_TestSuite,Firefox 70.0,,,2019-11-04 07:24:55,2019-11-04 07:26:12,1m - 17.023s,INCOMPLETE
+,,,,,,,
+Test Cases/FirstView/Force Transactions/VPOS_ForceTransaction_CardPresent_Or_Not_Present,Firefox 70.0,,,2019-11-04 07:24:57,2019-11-04 07:26:12,1m - 15.520s,FAILED
+Start listener action : sampleBeforeTestCase,Firefox 70.0,,,2019-11-04 07:24:57,2019-11-04 07:24:57,0.101s,PASSED
+"utilities.SafeActions.openBrowser(URL, [delayForElement])",Firefox 70.0,,,2019-11-04 07:24:58,2019-11-04 07:25:50,51.439s,PASSED
+"pages.Login.login(uName, password)",Firefox 70.0,,,2019-11-04 07:25:50,2019-11-04 07:25:57,7.311s,PASSED
+"callTestCase(findTestCase(""FirstView/Login/TC_SendCode""), [:], STOP_ON_FAILURE)",Firefox 70.0,,,2019-11-04 07:25:57,2019-11-04 07:26:01,3.908s,PASSED
+"callTestCase(findTestCase(""FirstView/Login/TC_FirstView""), [:], STOP_ON_FAILURE)",Firefox 70.0,,,2019-11-04 07:26:01,2019-11-04 07:26:07,6.473s,PASSED
+"switchToWindowTitle(""Transcenter - VPOS"")",Firefox 70.0,,,2019-11-04 07:26:07,2019-11-04 07:26:12,4.907s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 70.0,,,2019-11-04 07:26:12,2019-11-04 07:26:12,0.025s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 70.0,,,2019-11-04 07:26:12,2019-11-04 07:26:12,0.003s,PASSED

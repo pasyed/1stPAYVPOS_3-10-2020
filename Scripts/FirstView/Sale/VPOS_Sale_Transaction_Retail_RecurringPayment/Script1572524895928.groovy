@@ -13,15 +13,14 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-not_run: CustomKeywords.'utilities.SafeActions.openBrowser'(GlobalVariable.Old_URL, (([GlobalVariable.PageLoadTime]) as int[]))
-
-not_run: WebUI.delay(GlobalVariable.delayForElement)
-
-not_run: CustomKeywords.'utilities.SafeActions.safeSelectOptionInDropDownByVisibleText'(findTestObject('Pages/Sale/dropDown_AccountType'), 
-    GlobalVariable.RetailAccountOption, 'Select by Value', (([25]) as int[]))
-
-not_run: WebUI.delay(GlobalVariable.delayBetweenTestSteps)
-
+/**
+ *
+ * Implemented By ZenQ
+ * Tested on Chrome Version 76.0.3809.100
+ * Tested on Firefox Version 68.0,70.0
+ *
+ *
+ */
 CustomKeywords.'utilities.SafeActions.openBrowser'(GlobalVariable.URL, (([GlobalVariable.delayForElement]) as int[]))
 
 CustomKeywords.'pages.Login.login'(uName, password)
@@ -42,15 +41,10 @@ WebUI.scrollToElement(findTestObject('Pages/Sale/input_Amount'), GlobalVariable.
 
 CustomKeywords.'utilities.SafeActions.safeTypeUsingJavascript'(findTestObject('Pages/Sale/input_Amount'), amountInput)
 
-not_run: WebUI.focus(findTestObject('Pages/Sale/input_Amount'))
-
 WebUI.delay(2)
 
 CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('Pages/Sale/input_Amount'), amountInput, 'Amount field', 
         (([GlobalVariable.delayForElement]) as int[]))
-
-not_run: CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('Pages/Sale/input_Amount'), amountInput, 'Enter Amount into Amount text box', 
-        (([20]) as int[]))
 
 total_Amount = CustomKeywords.'utilities.SafeActions.safeGetText'(findTestObject('Pages/Sale/total_Amount'), GlobalVariable.delayBetweenTestSteps)
 
@@ -87,6 +81,13 @@ CustomKeywords.'utilities.SafeActions.safeClickwithScroll'(findTestObject('Pages
 
 CustomKeywords.'pages.Sale.verifyTransactionCompletePage'(findTestObject('Pages/Sale/heading_TransactionComplete'))
 
+transactionCompleteMessage = CustomKeywords.'utilities.SafeActions.safeGetText'(findTestObject('Pages/ForceTransactions/approved_TransactionMessage_TransactionComplete_Screen'), 
+    GlobalVariable.delayForElement)
+
+println(transactionCompleteMessage)
+
+CustomKeywords.'pages.Force_Transaction.verifyStrings'(transactionCompleteMessage)
+
 WebUI.delay(GlobalVariable.delayBetweenTestSteps)
 
 WebUI.scrollToElement(findTestObject('Pages/Sale/label_RecurringPayment_TransactionCompleteScreen'), GlobalVariable.delayBetweenTestSteps)
@@ -96,9 +97,6 @@ CustomKeywords.'utilities.SafeActions.safeClickWithoutScroll'(findTestObject('Pa
 
 CustomKeywords.'pages.Sale.selectMonthYear'(findTestObject('Pages/Sale/link_MonthYear'), findTestObject('Pages/Sale/calender_NextButton'), 
     cardMonth, cardYear)
-
-not_run: CustomKeywords.'utilities.SafeActions.safeClickwithScroll'(findTestObject('Pages/Sale/button_SaveAndReturnToSale_TransactionComplete'), 
-    'Click on Save and Return To Sale button', (([10]) as int[]))
 
 CustomKeywords.'pages.Sale.selectDate'(start_date_Value)
 
@@ -112,9 +110,6 @@ CustomKeywords.'pages.Sale.selectDate'(end_date_Value)
 
 CustomKeywords.'utilities.SafeActions.safeSelectOptionInDropDownByVisibleText'(findTestObject('Pages/Sale/dropDown_Frequency_TransactionComplete'), 
     'Weekly', 'Select By Value', (([10]) as int[]))
-
-not_run: CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('Pages/Sale/text_PaymentAmount_TransactionComplete'), 
-    amountInput, 'Enter Amount', (([10]) as int[]))
 
 CustomKeywords.'utilities.SafeActions.safeCheckForElement'(findTestObject('Pages/Sale/checkBox_Label_EmailReceipt_TransactionComplete'), 
     5)

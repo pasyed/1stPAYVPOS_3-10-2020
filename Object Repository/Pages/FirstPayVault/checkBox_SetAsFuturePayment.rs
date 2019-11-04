@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='form-vault-additional-prompting']//*[text()=&quot;Set as Future Payment?&quot;]/parent::div/following-sibling::div//label[text()=&quot;Yes&quot;]</value>
+         <value>//section[@id='p-1stPayVault']//form[contains(@id,'form-additional-prompting')]//*[text()=&quot;Set as Future Payment?&quot;]/parent::div/following-sibling::div//label[text()=&quot;Yes&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

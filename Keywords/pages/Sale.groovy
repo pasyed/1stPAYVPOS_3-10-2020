@@ -47,7 +47,6 @@ public class Sale {
 		boolean checkElementStatus
 		try{
 			checkElementStatus = WebUI.verifyElementChecked(checkboxObject, timeOut, FailureHandling.OPTIONAL)
-			
 		}
 		catch(Exception e){
 			//WebUI.click(checkboxObject)

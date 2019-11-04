@@ -1,0 +1,68 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1stPayVault_TestSuite,,,,2019-11-01 08:02:15,2019-11-01 08:02:51,35.810s,INCOMPLETE
+,,,,,,,
+Test Cases/FirstView/FirstPayVault/VPOS_1stPayVault_Verify_SaleScreen_On_Clicking_RunASale_Retail,,,,2019-11-01 08:02:16,2019-11-01 08:02:19,2.938s,ERROR
+Start listener action : sampleBeforeTestCase,,,,2019-11-01 08:02:17,2019-11-01 08:02:17,0.016s,PASSED
+"utilities.SafeActions.openBrowser(URL, [PageLoadTime])",,,,2019-11-01 08:02:18,2019-11-01 08:02:18,0.289s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-11-01 08:02:18,2019-11-01 08:02:19,0.969s,ERROR
+Start listener action : sampleAfterTestCase,,,,2019-11-01 08:02:19,2019-11-01 08:02:19,0.000s,PASSED
+,,,,,,,
+Test Cases/FirstView/FirstPayVault/VPOS_1stPayVault_Verify_TransactionCompleteScreen_on_Run_Sale_WithThis_Vault_Retail,,,,2019-11-01 08:02:19,2019-11-01 08:02:24,5.005s,ERROR
+Start listener action : sampleBeforeTestCase,,,,2019-11-01 08:02:19,2019-11-01 08:02:19,0.016s,PASSED
+"utilities.SafeActions.openBrowser(URL, [PageLoadTime])",,,,2019-11-01 08:02:20,2019-11-01 08:02:20,0.000s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-11-01 08:02:24,2019-11-01 08:02:24,0.059s,ERROR
+Start listener action : sampleAfterTestCase,,,,2019-11-01 08:02:24,2019-11-01 08:02:24,0.002s,PASSED
+,,,,,,,
+Test Cases/FirstView/FirstPayVault/VPOS_1stPayVault_Validate_CreatedVault_Presence_By_SearchVault_Retail,,,,2019-11-01 08:02:24,2019-11-01 08:02:27,2.451s,ERROR
+Start listener action : sampleBeforeTestCase,,,,2019-11-01 08:02:25,2019-11-01 08:02:25,0.171s,PASSED
+"utilities.SafeActions.openBrowser(URL, [PageLoadTime])",,,,2019-11-01 08:02:26,2019-11-01 08:02:26,0.127s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-11-01 08:02:26,2019-11-01 08:02:27,0.031s,ERROR
+Start listener action : sampleAfterTestCase,,,,2019-11-01 08:02:27,2019-11-01 08:02:27,0.000s,PASSED
+,,,,,,,
+Test Cases/FirstView/FirstPayVault/VPOS_1stPayVault_UpdateCardMonth_By_Clicking_Edit_On_SearchedVault,,,,2019-11-01 08:02:27,2019-11-01 08:02:33,6.807s,ERROR
+Start listener action : sampleBeforeTestCase,,,,2019-11-01 08:02:27,2019-11-01 08:02:27,0.000s,PASSED
+"utilities.SafeActions.openBrowser(URL, [PageLoadTime])",,,,2019-11-01 08:02:28,2019-11-01 08:02:28,0.016s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-11-01 08:02:33,2019-11-01 08:02:33,0.018s,ERROR
+Start listener action : sampleAfterTestCase,,,,2019-11-01 08:02:33,2019-11-01 08:02:33,0.000s,PASSED
+,,,,,,,
+Test Cases/FirstView/FirstPayVault/VPOS_1stPayVault_DeleteVault_By_Clicking_Delete_on_SearchedVault_Retail,,,,2019-11-01 08:02:33,2019-11-01 08:02:37,3.446s,ERROR
+Start listener action : sampleBeforeTestCase,,,,2019-11-01 08:02:34,2019-11-01 08:02:34,0.002s,PASSED
+"utilities.SafeActions.openBrowser(URL, [PageLoadTime])",,,,2019-11-01 08:02:34,2019-11-01 08:02:34,0.001s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-11-01 08:02:34,2019-11-01 08:02:37,2.832s,ERROR
+Start listener action : sampleAfterTestCase,,,,2019-11-01 08:02:37,2019-11-01 08:02:37,0.000s,PASSED
+,,,,,,,
+Test Cases/FirstView/FirstPayVault/VPOS_1stPayVault_SetRecurringPayment_By_Clicking_MakePayment_On_SearchedVault,,,,2019-11-01 08:02:37,2019-11-01 08:02:37,0.508s,ERROR
+Start listener action : sampleBeforeTestCase,,,,2019-11-01 08:02:37,2019-11-01 08:02:37,0.000s,PASSED
+"utilities.SafeActions.openBrowser(URL, [PageLoadTime])",,,,2019-11-01 08:02:37,2019-11-01 08:02:37,0.000s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-11-01 08:02:37,2019-11-01 08:02:37,0.015s,ERROR
+Start listener action : sampleAfterTestCase,,,,2019-11-01 08:02:37,2019-11-01 08:02:37,0.000s,PASSED
+,,,,,,,
+Test Cases/FirstView/FirstPayVault/VPOS_1stPayVault_SetFuturePayment_By_Clicking_MakePayment_On_SearchedVault_Retail,,,,2019-11-01 08:02:37,2019-11-01 08:02:38,0.638s,ERROR
+Start listener action : sampleBeforeTestCase,,,,2019-11-01 08:02:37,2019-11-01 08:02:37,0.002s,PASSED
+"utilities.SafeActions.openBrowser(URL, [PageLoadTime])",,,,2019-11-01 08:02:38,2019-11-01 08:02:38,0.000s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-11-01 08:02:38,2019-11-01 08:02:38,0.079s,ERROR
+Start listener action : sampleAfterTestCase,,,,2019-11-01 08:02:38,2019-11-01 08:02:38,0.001s,PASSED
+,,,,,,,
+Test Cases/FirstView/FirstPayVault/VPOS_1stPayVault_Search_Vault_By_Date_Retail,,,,2019-11-01 08:02:38,2019-11-01 08:02:39,1.200s,ERROR
+Start listener action : sampleBeforeTestCase,,,,2019-11-01 08:02:38,2019-11-01 08:02:38,0.002s,PASSED
+"utilities.SafeActions.openBrowser(URL, [PageLoadTime])",,,,2019-11-01 08:02:39,2019-11-01 08:02:39,0.000s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-11-01 08:02:39,2019-11-01 08:02:39,0.356s,ERROR
+Start listener action : sampleAfterTestCase,,,,2019-11-01 08:02:39,2019-11-01 08:02:39,0.000s,PASSED
+,,,,,,,
+Test Cases/FirstView/FirstPayVault/VPOS_1stPayVault_Search_Vault_By_CardNumber_Retail,,,,2019-11-01 08:02:39,2019-11-01 08:02:43,3.663s,ERROR
+Start listener action : sampleBeforeTestCase,,,,2019-11-01 08:02:40,2019-11-01 08:02:40,0.001s,PASSED
+"utilities.SafeActions.openBrowser(URL, [PageLoadTime])",,,,2019-11-01 08:02:42,2019-11-01 08:02:42,0.001s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-11-01 08:02:42,2019-11-01 08:02:43,0.389s,ERROR
+Start listener action : sampleAfterTestCase,,,,2019-11-01 08:02:43,2019-11-01 08:02:43,0.000s,PASSED
+,,,,,,,
+Test Cases/FirstView/FirstPayVault/VPOS_1stPayVault_Search_Vault_By_VaultReferenceNumber_Retail,,,,2019-11-01 08:02:43,2019-11-01 08:02:47,4.453s,ERROR
+Start listener action : sampleBeforeTestCase,,,,2019-11-01 08:02:44,2019-11-01 08:02:44,0.003s,PASSED
+"utilities.SafeActions.openBrowser(URL, [PageLoadTime])",,,,2019-11-01 08:02:47,2019-11-01 08:02:47,0.001s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-11-01 08:02:47,2019-11-01 08:02:47,0.015s,ERROR
+Start listener action : sampleAfterTestCase,,,,2019-11-01 08:02:47,2019-11-01 08:02:47,0.000s,PASSED
+,,,,,,,
+Test Cases/FirstView/FirstPayVault/VPOS_1stPayVault_Create_Vault_Retail,,,,2019-11-01 08:02:47,2019-11-01 08:02:51,3.404s,ERROR
+Start listener action : sampleBeforeTestCase,,,,2019-11-01 08:02:49,2019-11-01 08:02:49,0.009s,PASSED
+"utilities.SafeActions.openBrowser(URL, [PageLoadTime])",,,,2019-11-01 08:02:50,2019-11-01 08:02:50,0.001s,PASSED
+Start listener action : sampleAfterTestCase,,,,2019-11-01 08:02:50,2019-11-01 08:02:51,0.331s,ERROR
+Start listener action : sampleAfterTestCase,,,,2019-11-01 08:02:51,2019-11-01 08:02:51,0.001s,PASSED

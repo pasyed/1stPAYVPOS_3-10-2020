@@ -16,15 +16,14 @@ import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-not_run: CustomKeywords.'utilities.SafeActions.openBrowser'(GlobalVariable.Old_URL, (([GlobalVariable.PageLoadTime]) as int[]))
-
-not_run: WebUI.delay(GlobalVariable.delayForElement)
-
-not_run: CustomKeywords.'utilities.SafeActions.safeSelectOptionInDropDownByVisibleText'(findTestObject('Pages/Sale/dropDown_AccountType'), 
-    GlobalVariable.RetailAccountOption, 'Select by Value', (([25]) as int[]))
-
-not_run: WebUI.delay(GlobalVariable.delayBetweenTestSteps)
-
+/**
+ *
+ * Implemented By ZenQ
+ * Tested on Chrome Version 76.0.3809.100
+ * Tested on Firefox Version 68.0,70.0
+ *
+ *
+ */
 CustomKeywords.'utilities.SafeActions.openBrowser'(GlobalVariable.URL, (([GlobalVariable.delayForElement]) as int[]))
 
 CustomKeywords.'pages.Login.login'(uName, password)
@@ -43,11 +42,7 @@ CustomKeywords.'pages.Sale.verifyIfEntryModeIsChecked'(tabName, entryModeCheckBo
 'Scroll down to Element inputAmount'
 WebUI.scrollToElement(findTestObject('Pages/Sale/input_Amount'), GlobalVariable.delayBetweenTestSteps)
 
-not_run: WebUI.click(findTestObject('Pages/Sale/input_Amount'))
-
 CustomKeywords.'utilities.SafeActions.safeTypeUsingJavascript'(findTestObject('Pages/Sale/input_Amount'), amountInput)
-
-not_run: WebUI.focus(findTestObject('Pages/Sale/input_Amount'))
 
 WebUI.delay(2)
 
@@ -85,9 +80,6 @@ CustomKeywords.'utilities.SafeActions.safeClickWithoutScrollOnLabel'(findTestObj
 //CustomKeywords.'utilities.SafeActions.selectSeleniumCodeYear'(findTestObject('Pages/Sale/dropDown_ExpirationYear'), '2022')
 WebUI.delay(GlobalVariable.delayBetweenTestSteps)
 
-not_run: CustomKeywords.'utilities.SafeActions.safeType'(findTestObject('Pages/Sale/input_SecurityCode'), securityCode, 
-    'Enter Security code', (([GlobalVariable.delayForElement]) as int[]))
-
 WebUI.scrollToElement(findTestObject('Pages/Sale/invoiceNumber'), GlobalVariable.delayBetweenTestSteps)
 
 invoiceNumber = CustomKeywords.'utilities.SafeActions.safeGetText'(findTestObject('Pages/Sale/invoiceNumber'), GlobalVariable.delayBetweenTestSteps)
@@ -116,6 +108,13 @@ CustomKeywords.'utilities.SafeActions.safeClickwithScroll'(findTestObject('Pages
         (([GlobalVariable.delayBetweenTestSteps]) as int[]))
 
 CustomKeywords.'pages.Sale.verifyTransactionCompletePage'(findTestObject('Pages/Sale/heading_TransactionComplete'))
+
+transactionCompleteMessage = CustomKeywords.'utilities.SafeActions.safeGetText'(findTestObject('Pages/ForceTransactions/approved_TransactionMessage_TransactionComplete_Screen'), 
+    GlobalVariable.delayForElement)
+
+println(transactionCompleteMessage)
+
+CustomKeywords.'pages.Force_Transaction.verifyStrings'(transactionCompleteMessage)
 
 WebUI.delay(GlobalVariable.delayBetweenTestSteps)
 

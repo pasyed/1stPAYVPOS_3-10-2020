@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ForceTransaction_TestSuite,Firefox 70.0,,,2019-11-04 09:01:40,2019-11-04 09:03:21,1m - 40.702s,INCOMPLETE
+,,,,,,,
+Test Cases/FirstView/Force Transactions/VPOS_ForceTransaction_Card_Not_Present,Firefox 70.0,,,2019-11-04 09:01:42,2019-11-04 09:03:21,1m - 38.805s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 70.0,,,2019-11-04 09:01:44,2019-11-04 09:01:44,0.037s,PASSED
+"utilities.SafeActions.openBrowser(URL, [delayForElement])",Firefox 70.0,,,2019-11-04 09:01:45,2019-11-04 09:01:57,12.140s,PASSED
+"pages.Login.login(uName, password)",Firefox 70.0,,,2019-11-04 09:01:57,2019-11-04 09:02:03,5.826s,PASSED
+"callTestCase(findTestCase(""FirstView/Login/TC_SendCode""), [:], STOP_ON_FAILURE)",Firefox 70.0,,,2019-11-04 09:02:03,2019-11-04 09:02:06,2.996s,PASSED
+"callTestCase(findTestCase(""FirstView/Login/TC_FirstView""), [:], STOP_ON_FAILURE)",Firefox 70.0,,,2019-11-04 09:02:06,2019-11-04 09:02:13,6.812s,PASSED
+"switchToWindowTitle(""Transcenter - VPOS"")",Firefox 70.0,,,2019-11-04 09:02:13,2019-11-04 09:02:17,3.977s,PASSED
+delay(delayForElement),Firefox 70.0,,,2019-11-04 09:02:17,2019-11-04 09:02:23,6.004s,PASSED
+"utilities.SafeActions.javascriptclick(findTestObject(""Pages/ForceTransactions/tab_ForceTransactions""), PageLoadTime)",Firefox 70.0,,,2019-11-04 09:02:23,2019-11-04 09:02:23,0.129s,PASSED
+delay(delayForElement),Firefox 70.0,,,2019-11-04 09:02:23,2019-11-04 09:02:29,6.005s,PASSED
+"utilities.SafeActions.safeClickWithoutScroll(findTestObject(""Pages/ForceTransactions/tab_ForceTransactions""), ""Click on Force Transaction tab"", [delayForElement])",Firefox 70.0,,,2019-11-04 09:02:29,2019-11-04 09:02:30,1.176s,PASSED
+delay(delayForElement),Firefox 70.0,,,2019-11-04 09:02:30,2019-11-04 09:02:36,6.002s,PASSED
+"pages.Sale.verifyIfEntryModeIsChecked(tabName, entryModeCheckBox, delayBetweenTestSteps)",Firefox 70.0,,,2019-11-04 09:02:36,2019-11-04 09:02:36,0.085s,PASSED
+"scrollToElement(findTestObject(""Pages/ForceTransactions/input_Amount""), delayBetweenTestSteps)",Firefox 70.0,Scroll down to Element inputAmount,,2019-11-04 09:02:36,2019-11-04 09:02:36,0.119s,PASSED
+"utilities.SafeActions.safeTypeUsingJavascript(findTestObject(""Pages/ForceTransactions/input_Amount""), amountInput)",Firefox 70.0,,,2019-11-04 09:02:36,2019-11-04 09:02:37,0.213s,PASSED
+delay(2),Firefox 70.0,,,2019-11-04 09:02:37,2019-11-04 09:02:39,2.004s,PASSED
+"utilities.SafeActions.safeType(findTestObject(""Pages/ForceTransactions/input_Amount""), amountInput, ""Amount field"", [delayForElement])",Firefox 70.0,,,2019-11-04 09:02:39,2019-11-04 09:02:40,0.972s,PASSED
+"scrollToElement(findTestObject(""Pages/Sale/dropDown_ExpirationMonth""), delayBetweenTestSteps)",Firefox 70.0,,,2019-11-04 09:02:40,2019-11-04 09:02:40,0.108s,PASSED
+"utilities.SafeActions.safeType(findTestObject(""Pages/ForceTransactions/input_CardNumber""), visaCardNumber, ""Entering Card Number"", [delayBetweenTestSteps])",Firefox 70.0,,,2019-11-04 09:02:40,2019-11-04 09:02:41,1.471s,PASSED
+delay(delayBetweenTestSteps),Firefox 70.0,,,2019-11-04 09:02:41,2019-11-04 09:02:44,3.002s,PASSED
+"pages.Refund.verifyIfCardInformationIsChecked(tabName, cardInformationCheckBox, delayBetweenTestSteps)",Firefox 70.0,,,2019-11-04 09:02:44,2019-11-04 09:02:45,0.589s,PASSED
+"utilities.SafeActions.safeSelectOptionInDropDownByVisibleText(findTestObject(""Pages/ForceTransactions/dropDown_ExpirationMonth""), cardMonth, ""Enter Month"", [delayBetweenTestSteps])",Firefox 70.0,,,2019-11-04 09:02:45,2019-11-04 09:02:46,1.290s,PASSED
+"utilities.SafeActions.safeSelectOptionInDropDownByVisibleText(findTestObject(""Pages/ForceTransactions/dropDown_ExpirationYear""), cardYear, ""Select Expiration Year"", [delayBetweenTestSteps])",Firefox 70.0,,,2019-11-04 09:02:46,2019-11-04 09:02:47,1.300s,PASSED
+"utilities.SafeActions.safeClickWithoutScrollOnLabel(findTestObject(""Pages/ForceTransactions/label_ExpirationYear""), ""Click on Exp Year label"", [PageLoadTime])",Firefox 70.0,,,2019-11-04 09:02:47,2019-11-04 09:02:48,0.940s,PASSED
+"utilities.SafeActions.safeType(findTestObject(""Pages/ForceTransactions/input_SecurityCode""), securityCode, ""Enter Security code"", [delayForElement])",Firefox 70.0,,,2019-11-04 09:02:48,2019-11-04 09:03:05,16.962s,PASSED
+"utilities.SafeActions.safeType(findTestObject(""Pages/ForceTransactions/input_Approval""), approvalCode, ""Enter Approval Code"", [delayForElement])",Firefox 70.0,,,2019-11-04 09:03:05,2019-11-04 09:03:08,2.474s,PASSED
+delay(delayBetweenTestSteps),Firefox 70.0,,,2019-11-04 09:03:08,2019-11-04 09:03:11,3.003s,PASSED
+"utilities.SafeActions.safeClickwithScroll(findTestObject(""Pages/ForceTransactions/button_Checkout""), ""Click on Checkout button"", [delayBetweenTestSteps])",Firefox 70.0,,,2019-11-04 09:03:11,2019-11-04 09:03:12,1.719s,PASSED
+"pages.Sale.verifyTransactionCompletePage(findTestObject(""Pages/Sale/heading_TransactionComplete""))",Firefox 70.0,,,2019-11-04 09:03:12,2019-11-04 09:03:14,1.136s,PASSED
+"transactionCompleteMessage = utilities.SafeActions.safeGetText(findTestObject(""Pages/ForceTransactions/approved_TransactionMessage_TransactionComplete_Screen""), delayForElement)",Firefox 70.0,,,2019-11-04 09:03:14,2019-11-04 09:03:14,0.903s,PASSED
+println(transactionCompleteMessage),Firefox 70.0,,,2019-11-04 09:03:14,2019-11-04 09:03:14,0.003s,PASSED
+pages.Force_Transaction.verifyStrings(transactionCompleteMessage),Firefox 70.0,,,2019-11-04 09:03:14,2019-11-04 09:03:14,0.011s,PASSED
+delay(2),Firefox 70.0,,,2019-11-04 09:03:14,2019-11-04 09:03:16,2.004s,PASSED
+"utilities.SafeActions.safeClickWithoutScroll(findTestObject(""Pages/ForceTransactions/button_Return_TransactionComplete_Screen""), ""Click on Return"", [delayBetweenTestSteps])",Firefox 70.0,,,2019-11-04 09:03:16,2019-11-04 09:03:18,1.393s,PASSED
+closeBrowser(),Firefox 70.0,,,2019-11-04 09:03:18,2019-11-04 09:03:21,3.253s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 70.0,,,2019-11-04 09:03:21,2019-11-04 09:03:21,0.009s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 70.0,,,2019-11-04 09:03:21,2019-11-04 09:03:21,0.002s,PASSED

@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Refund_TestSuite,Firefox 70.0,,,2019-11-04 08:41:35,2019-11-04 08:43:00,1m - 24.492s,INCOMPLETE
+,,,,,,,
+Test Cases/FirstView/Refund/TC_Refund_CardPresent,Firefox 70.0,,,2019-11-04 08:41:38,2019-11-04 08:43:00,1m - 22.161s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 70.0,,,2019-11-04 08:41:39,2019-11-04 08:41:39,0.014s,PASSED
+"utilities.SafeActions.openBrowser(URL, [delayForElement])",Firefox 70.0,,,2019-11-04 08:41:39,2019-11-04 08:41:51,11.201s,PASSED
+"pages.Login.login(uName, password)",Firefox 70.0,,,2019-11-04 08:41:51,2019-11-04 08:41:56,5.282s,PASSED
+"callTestCase(findTestCase(""FirstView/Login/TC_SendCode""), [:], STOP_ON_FAILURE)",Firefox 70.0,,,2019-11-04 08:41:56,2019-11-04 08:41:59,2.743s,PASSED
+"callTestCase(findTestCase(""FirstView/Login/TC_FirstView""), [:], STOP_ON_FAILURE)",Firefox 70.0,,,2019-11-04 08:41:59,2019-11-04 08:42:04,5.827s,PASSED
+"switchToWindowTitle(""Transcenter - VPOS"")",Firefox 70.0,,,2019-11-04 08:42:04,2019-11-04 08:42:09,4.751s,PASSED
+delay(delayForElement),Firefox 70.0,,,2019-11-04 08:42:09,2019-11-04 08:42:15,6.004s,PASSED
+"utilities.SafeActions.javascriptclick(findTestObject(""Pages/Refund/tab_Refund""), PageLoadTime)",Firefox 70.0,,,2019-11-04 08:42:15,2019-11-04 08:42:15,0.110s,PASSED
+delay(delayForElement),Firefox 70.0,,,2019-11-04 08:42:15,2019-11-04 08:42:21,6.037s,PASSED
+"utilities.SafeActions.safeClickWithoutScroll(findTestObject(""Pages/Refund/tab_Refund""), ""Click on Refundtab"", [delayForElement])",Firefox 70.0,,,2019-11-04 08:42:21,2019-11-04 08:42:22,1.018s,PASSED
+"pages.Sale.verifyIfEntryModeIsChecked(tabName, entryModeCheckBox, delayBetweenTestSteps)",Firefox 70.0,,,2019-11-04 08:42:22,2019-11-04 08:42:23,0.283s,PASSED
+"utilities.SafeActions.safeType(findTestObject(""Pages/Refund/input_Amount""), amountInput, ""Enter Amount into Amount text box"", [20])",Firefox 70.0,,,2019-11-04 08:42:23,2019-11-04 08:42:24,1.236s,PASSED
+"scrollToElement(findTestObject(""Pages/Refund/dropDown_ExpirationMonth""), delayBetweenTestSteps)",Firefox 70.0,,,2019-11-04 08:42:24,2019-11-04 08:42:24,0.091s,PASSED
+"pages.Refund.verifyIfCardInformationIsChecked(tabName, cardInformationCheckBox, delayBetweenTestSteps)",Firefox 70.0,,,2019-11-04 08:42:24,2019-11-04 08:42:24,0.480s,PASSED
+"utilities.SafeActions.safeType(findTestObject(""Pages/Refund/input_CardNumber""), visaCardNumber, ""Entering Card Number"", [10])",Firefox 70.0,,,2019-11-04 08:42:24,2019-11-04 08:42:26,1.477s,PASSED
+delay(delayBetweenTestSteps),Firefox 70.0,,,2019-11-04 08:42:26,2019-11-04 08:42:29,3.002s,PASSED
+"utilities.SafeActions.safeSelectOptionInDropDownByVisibleText(findTestObject(""Pages/Refund/dropDown_ExpirationMonth""), cardMonth, ""Enter Month"", [5])",Firefox 70.0,,,2019-11-04 08:42:29,2019-11-04 08:42:30,1.213s,PASSED
+"utilities.SafeActions.safeSelectOptionInDropDownByVisibleText(findTestObject(""Pages/Refund/dropDown_ExpirationYear""), cardYear, ""Select Expiration Year"", [5])",Firefox 70.0,,,2019-11-04 08:42:30,2019-11-04 08:42:31,1.170s,PASSED
+"utilities.SafeActions.safeType(findTestObject(""Pages/Refund/input_SecurityCode""), securityCode, ""Enter Security code"", [delayForElement])",Firefox 70.0,,,2019-11-04 08:42:31,2019-11-04 08:42:44,12.550s,PASSED
+delay(delayBetweenTestSteps),Firefox 70.0,,,2019-11-04 08:42:44,2019-11-04 08:42:47,3.002s,PASSED
+"utilities.SafeActions.safeClickwithScroll(findTestObject(""Pages/Refund/button_Checkout""), ""Click on Checkout button"", [60])",Firefox 70.0,,,2019-11-04 08:42:47,2019-11-04 08:42:48,1.368s,PASSED
+"pages.Sale.verifyTransactionCompletePage(findTestObject(""Pages/Sale/heading_TransactionComplete""))",Firefox 70.0,,,2019-11-04 08:42:48,2019-11-04 08:42:49,0.692s,PASSED
+"transactionCompleteMessage = utilities.SafeActions.safeGetText(findTestObject(""Pages/ForceTransactions/approved_TransactionMessage_TransactionComplete_Screen""), delayForElement)",Firefox 70.0,,,2019-11-04 08:42:49,2019-11-04 08:42:50,0.702s,PASSED
+println(transactionCompleteMessage),Firefox 70.0,,,2019-11-04 08:42:50,2019-11-04 08:42:50,0.002s,PASSED
+pages.Force_Transaction.verifyStrings(transactionCompleteMessage),Firefox 70.0,,,2019-11-04 08:42:50,2019-11-04 08:42:50,0.006s,PASSED
+delay(delayBetweenTestSteps),Firefox 70.0,,,2019-11-04 08:42:50,2019-11-04 08:42:53,3.021s,PASSED
+"total_Amount = utilities.SafeActions.safeGetText(findTestObject(""Pages/Refund/totalAmount""), delayForElement)",Firefox 70.0,,,2019-11-04 08:42:53,2019-11-04 08:42:53,0.664s,PASSED
+"invoiceNumber = utilities.SafeActions.safeGetText(findTestObject(""Pages/Refund/invoiceNumber""), delayForElement)",Firefox 70.0,,,2019-11-04 08:42:53,2019-11-04 08:42:54,0.674s,PASSED
+"utilities.SafeActions.safeClickWithoutScroll(findTestObject(""Pages/Refund/button_ReturnToRefund""), ""Click on Return To Sale"", [10])",Firefox 70.0,,,2019-11-04 08:42:54,2019-11-04 08:42:55,1.116s,PASSED
+closeBrowser(),Firefox 70.0,,,2019-11-04 08:42:55,2019-11-04 08:43:00,4.717s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 70.0,,,2019-11-04 08:43:00,2019-11-04 08:43:00,0.007s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 70.0,,,2019-11-04 08:43:00,2019-11-04 08:43:00,0.001s,PASSED

@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='form-refund-card-info']//input[@id=&quot;text-card-number&quot;]</value>
+         <value>//form[@id='p_1_2_2_1_3__form-card-info']//input[contains(@id,&quot;text-card-number&quot;)]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

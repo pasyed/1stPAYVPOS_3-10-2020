@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='text-refund-info-amount']</value>
+         <value>//input[@id='p_1_2_2_1_2__saleId']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

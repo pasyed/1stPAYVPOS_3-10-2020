@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ForceTransaction_TestSuite,Firefox 70.0,,,2019-11-04 06:57:42,2019-11-04 06:58:46,1m - 4.422s,INCOMPLETE
+,,,,,,,
+Test Cases/FirstView/Force Transactions/VPOS_ForceTransaction_CardPresent_Or_Not_Present,Firefox 70.0,,,2019-11-04 06:57:44,2019-11-04 06:58:46,1m - 2.167s,ERROR
+Start listener action : sampleBeforeTestCase,Firefox 70.0,,,2019-11-04 06:57:45,2019-11-04 06:57:45,0.052s,PASSED
+"utilities.SafeActions.openBrowser(URL, [delayForElement])",Firefox 70.0,,,2019-11-04 06:57:46,2019-11-04 06:58:17,30.927s,PASSED
+"pages.Login.login(uName, password)",Firefox 70.0,,,2019-11-04 06:58:17,2019-11-04 06:58:27,10.519s,PASSED
+"callTestCase(findTestCase(""FirstView/Login/TC_SendCode""), [:], STOP_ON_FAILURE)",Firefox 70.0,,,2019-11-04 06:58:27,2019-11-04 06:58:32,5.325s,PASSED
+"callTestCase(findTestCase(""FirstView/Login/TC_FirstView""), [:], STOP_ON_FAILURE)",Firefox 70.0,,,2019-11-04 06:58:32,2019-11-04 06:58:46,13.658s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 70.0,,,2019-11-04 06:58:46,2019-11-04 06:58:46,0.079s,ERROR
+Start listener action : sampleAfterTestCase,Firefox 70.0,,,2019-11-04 06:58:46,2019-11-04 06:58:46,0.002s,PASSED

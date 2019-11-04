@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="ForceTransaction_TestSuite" time="96" tests="0" failures="1" errors="0">
+    <testsuite name="ForceTransaction_TestSuite" tests="0" failures="1" errors="0" time="96" timestamp="2019-11-04 05:41:51" hostname="venkata.annam - FW1-D-DTA-ZENQ1" id="Test Suites/FirstView/ForceTransaction_TestSuite">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\VPOS_Git_31-10-2019\\VPOS_Internal\\Reports\\20191104_054117\\FirstView\\ForceTransaction_TestSuite\\20191104_054120"/>
+            <property name="logFiles" value="C:\\VPOS_Git_31-10-2019\\VPOS_Internal\\Reports\\20191104_054117\\FirstView\\ForceTransaction_TestSuite\\20191104_054120\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="venkata.annam - FW1-D-DTA-ZENQ1"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.2.4"/>
+            <property name="browser" value="Firefox 70.0"/>
+            <property name="hostAddress" value="172.25.52.168"/>
+            <property name="sessionId" value="fe4934df-a764-463d-ac7c-edb5fff79b68"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/FirstView/Force Transactions/VPOS_ForceTransaction_CardPresent_Or_Not_Present" classname="Test Cases/FirstView/Force Transactions/VPOS_ForceTransaction_CardPresent_Or_Not_Present" status="FAILED">
+            <failure type="FAILED" message="Test Cases/FirstView/Force Transactions/VPOS_ForceTransaction_CardPresent_Or_Not_Present FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.exception.StepFailedException: Unable to check object ''&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1039)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$10.call(Unknown Source)&#xD;&#xA;&#x9;at pages.Sale.verifyIfEntryModeIsChecked(Sale.groovy:61)&#xD;&#xA;&#x9;at pages.Sale.invokeMethod(Sale.groovy)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)&#xD;&#xA;&#x9;at VPOS_ForceTransaction_CardPresent_Or_Not_Present.run(VPOS_ForceTransaction_CardPresent_Or_Not_Present:38)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1572867680994.run(TempTestSuite1572867680994.groovy:35)&#xD;&#xA;Caused by: org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection&#xA;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xA;System info: host: 'FW1-D-DTA-ZENQ1', ip: '172.25.52.168', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'&#xA;Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver&#xA;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191016161957, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 78456, moz:profile: C:\Users\venkata.annam\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#xA;Session ID: fe4934df-a764-463d-ac7c-edb5fff79b68&#xA;*** Element info: {Using=xpath, value=//section[@id=&quot;p-Force Transaction&quot;]//*[text()=&quot;Manually Keyed&quot;]/ancestor::div[1]/input}&#xD;&#xA;&#x9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;&#xA;&#x9;at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:28)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)&#xD;&#xA;&#x9;at org.openqa.selenium.By$ByXPath.findElements(By.java:348)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:761)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:77)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;&#xA;&#x9;... 22 more&#xD;&#xA;"/>
+            <system-out>2019-11-04 05:41:52 - [TEST_CASE][FAILED] - Test Cases/FirstView/Force Transactions/VPOS_ForceTransaction_CardPresent_Or_Not_Present: Test Cases/FirstView/Force Transactions/VPOS_ForceTransaction_CardPresent_Or_Not_Present FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to check object ''&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1039)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$10.call(Unknown Source)&#xD;
+	at pages.Sale.verifyIfEntryModeIsChecked(Sale.groovy:61)&#xD;
+	at pages.Sale.invokeMethod(Sale.groovy)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)&#xD;
+	at VPOS_ForceTransaction_CardPresent_Or_Not_Present.run(VPOS_ForceTransaction_CardPresent_Or_Not_Present:38)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1572867680994.run(TempTestSuite1572867680994.groovy:35)&#xD;
+Caused by: org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FW1-D-DTA-ZENQ1', ip: '172.25.52.168', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191016161957, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 78456, moz:profile: C:\Users\venkata.annam\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fe4934df-a764-463d-ac7c-edb5fff79b68
+*** Element info: {Using=xpath, value=//section[@id="p-Force Transaction"]//*[text()="Manually Keyed"]/ancestor::div[1]/input}&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:28)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)&#xD;
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:761)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:77)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 22 more&#xD;
+&#xD;
+&#xD;
+2019-11-04 05:41:53 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null&#xD;
+&#xD;
+2019-11-04 05:41:53 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null&#xD;
+&#xD;
+2019-11-04 05:41:53 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null&#xD;
+&#xD;
+2019-11-04 05:41:54 - [TEST_STEP][PASSED] - utilities.SafeActions.openBrowser(URL, [delayForElement]): utilities.SafeActions.openBrowser is PASSED&#xD;
+&#xD;
+2019-11-04 05:41:54 - [MESSAGE][INFO] - Opening Browser&#xD;
+&#xD;
+2019-11-04 05:41:55 - [MESSAGE][INFO] - Starting 'Firefox' driver&#xD;
+&#xD;
+2019-11-04 05:41:55 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-11-04 05:42:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://q-www-firstview-net.faps.net/MVC/Account/Login'&#xD;
+&#xD;
+2019-11-04 05:42:37 - [MESSAGE][PASSED] - Current window maximized&#xD;
+&#xD;
+2019-11-04 05:42:37 - [MESSAGE][INFO] - Browser Launched Successfully&#xD;
+&#xD;
+2019-11-04 05:42:37 - [MESSAGE][PASSED] - utilities.SafeActions.openBrowser is PASSED&#xD;
+&#xD;
+2019-11-04 05:42:37 - [TEST_STEP][PASSED] - pages.Login.login(uName, password): pages.Login.login is PASSED&#xD;
+&#xD;
+2019-11-04 05:42:39 - [MESSAGE][PASSED] - Object 'Object Repository/Pages/Login/userName' is present&#xD;
+&#xD;
+2019-11-04 05:42:39 - [MESSAGE][PASSED] - Object 'Object Repository/Pages/Login/userName' is present&#xD;
+&#xD;
+2019-11-04 05:42:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Pages/Login/userName' is clicked on&#xD;
+&#xD;
+2019-11-04 05:42:41 - [MESSAGE][PASSED] - Text 'ZenQRetail' is set on object 'Object Repository/Pages/Login/userName'&#xD;
+&#xD;
+2019-11-04 05:42:41 - [MESSAGE][PASSED] - Object 'Object Repository/Pages/Login/password' is present&#xD;
+&#xD;
+2019-11-04 05:42:41 - [MESSAGE][PASSED] - Object 'Object Repository/Pages/Login/password' is present&#xD;
+&#xD;
+2019-11-04 05:42:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Pages/Login/password' is clicked on&#xD;
+&#xD;
+2019-11-04 05:42:43 - [MESSAGE][PASSED] - Text 'P@ssword1' is set on object 'Object Repository/Pages/Login/password'&#xD;
+&#xD;
+2019-11-04 05:42:43 - [MESSAGE][INFO] - Safe Click Without scroll&#xD;
+&#xD;
+2019-11-04 05:42:43 - [MESSAGE][INFO] - ForceTransaction_TestSuite.ts:waiting until Click on Login is Clickable&#xD;
+&#xD;
+2019-11-04 05:42:43 - [MESSAGE][PASSED] - Object 'Object Repository/Pages/Login/login' is clickable&#xD;
+&#xD;
+2019-11-04 05:42:43 - [MESSAGE][PASSED] - Object 'Object Repository/Pages/Login/login' is visible&#xD;
+&#xD;
+2019-11-04 05:42:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Pages/Login/login' is clicked on&#xD;
+&#xD;
+2019-11-04 05:42:47 - [MESSAGE][INFO] - ForceTransaction_TestSuite.ts: click on the Click on Login&#xD;
+&#xD;
+2019-11-04 05:42:47 - [MESSAGE][PASSED] - pages.Login.login is PASSED&#xD;
+&#xD;
+2019-11-04 05:42:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("FirstView/Login/TC_SendCode"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/FirstView/Login/TC_SendCode' successfully&#xD;
+&#xD;
+2019-11-04 05:42:47 - [TEST_CASE][PASSED] - Test Cases/FirstView/Login/TC_SendCode: Test Cases/FirstView/Login/TC_SendCode&#xD;
+&#xD;
+2019-11-04 05:42:47 - [TEST_STEP][PASSED] - flag = pages.SendCode.verifyPage(): pages.SendCode.verifyPage is PASSED&#xD;
+&#xD;
+2019-11-04 05:42:48 - [MESSAGE][PASSED] - Object 'Object Repository/Pages/SendCodeToValidate/header_SendCodeToValidate' is present and visible in viewport&#xD;
+&#xD;
+2019-11-04 05:42:48 - [MESSAGE][PASSED] - pages.SendCode.verifyPage is PASSED&#xD;
+&#xD;
+2019-11-04 05:42:48 - [TEST_STEP][PASSED] - if (flag): pages.SendCode.clickonUserSettings is PASSED&#xD;
+&#xD;
+2019-11-04 05:42:48 - [TEST_STEP][PASSED] - pages.SendCode.clickonUserSettings(): pages.SendCode.clickonUserSettings is PASSED&#xD;
+&#xD;
+2019-11-04 05:42:48 - [MESSAGE][PASSED] - Object 'Object Repository/Pages/SendCodeToValidate/link_UserSettings' is present&#xD;
+&#xD;
+2019-11-04 05:42:49 - [MESSAGE][PASSED] - Object 'Object Repository/Pages/SendCodeToValidate/link_UserSettings' is visible&#xD;
+&#xD;
+2019-11-04 05:42:49 - [MESSAGE][INFO] - ForceTransaction_TestSuite.ts:waiting until Click on User Settings is Clickable&#xD;
+&#xD;
+2019-11-04 05:42:49 - [MESSAGE][PASSED] - Object 'Object Repository/Pages/SendCodeToValidate/link_UserSettings' is clickable&#xD;
+&#xD;
+2019-11-04 05:42:49 - [MESSAGE][PASSED] - Object 'Object Repository/Pages/SendCodeToValidate/link_UserSettings' is visible&#xD;
+&#xD;
+2019-11-04 05:42:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Pages/SendCodeToValidate/link_UserSettings' is clicked on&#xD;
+&#xD;
+2019-11-04 05:42:53 - [MESSAGE][INFO] - ForceTransaction_TestSuite.ts: Clicked on the Click on User Settings&#xD;
+&#xD;
+2019-11-04 05:42:53 - [MESSAGE][PASSED] - pages.SendCode.clickonUserSettings is PASSED&#xD;
+&#xD;
+2019-11-04 05:42:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FirstView/Login/TC_SendCode' successfully&#xD;
+&#xD;
+2019-11-04 05:42:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("FirstView/Login/TC_FirstView"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/FirstView/Login/TC_FirstView' successfully&#xD;
+&#xD;
+2019-11-04 05:42:53 - [TEST_CASE][PASSED] - Test Cases/FirstView/Login/TC_FirstView: Test Cases/FirstView/Login/TC_FirstView&#xD;
+&#xD;
+2019-11-04 05:42:55 - [TEST_STEP][NOT_RUN] - utilities.SafeActions.safeClickWithoutScroll(findTestObject("Pages/FirstView/link_Home"), "Click on Home button in First View screen", [PageLoadTime]): NOT_RUN: utilities.SafeActions.safeClickWithoutScroll(findTestObject("Pages/FirstView/link_Home"), "Click on Home button in First View screen", [PageLoadTime])&#xD;
+&#xD;
+2019-11-04 05:42:55 - [MESSAGE][NOT_RUN] - NOT_RUN: utilities.SafeActions.safeClickWithoutScroll(findTestObject("Pages/FirstView/link_Home"), "Click on Home button in First View screen", [PageLoadTime])&#xD;
+&#xD;
+2019-11-04 05:42:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)&#xD;
+&#xD;
+2019-11-04 05:42:58 - [MESSAGE][PASSED] - Delayed 3 second(s)&#xD;
+&#xD;
+2019-11-04 05:42:58 - [TEST_STEP][PASSED] - utilities.SafeActions.javascriptclick(findTestObject("Pages/FirstView/link_Home"), delayForElement): utilities.SafeActions.javascriptclick is PASSED&#xD;
+&#xD;
+2019-11-04 05:42:58 - [MESSAGE][PASSED] - utilities.SafeActions.javascriptclick is PASSED&#xD;
+&#xD;
+2019-11-04 05:42:58 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClickWithoutScroll(findTestObject("Pages/FirstView/link_VPOS"), "Click on VPOS button in First View screen", [PageLoadTime]): utilities.SafeActions.safeClickWithoutScroll is PASSED&#xD;
+&#xD;
+2019-11-04 05:42:58 - [MESSAGE][INFO] - Safe Click Without scroll&#xD;
+&#xD;
+2019-11-04 05:42:58 - [MESSAGE][INFO] - ForceTransaction_TestSuite.ts:waiting until Click on VPOS button in First View screen is Clickable&#xD;
+&#xD;
+2019-11-04 05:42:59 - [MESSAGE][PASSED] - Object 'Object Repository/Pages/FirstView/link_VPOS' is clickable&#xD;
+&#xD;
+2019-11-04 05:43:00 - [MESSAGE][PASSED] - Object 'Object Repository/Pages/FirstView/link_VPOS' is visible&#xD;
+&#xD;
+2019-11-04 05:43:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Pages/FirstView/link_VPOS' is clicked on&#xD;
+&#xD;
+2019-11-04 05:43:02 - [MESSAGE][INFO] - ForceTransaction_TestSuite.ts: click on the Click on VPOS button in First View screen&#xD;
+&#xD;
+2019-11-04 05:43:02 - [MESSAGE][PASSED] - utilities.SafeActions.safeClickWithoutScroll is PASSED&#xD;
+&#xD;
+2019-11-04 05:43:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/FirstView/Login/TC_FirstView' successfully&#xD;
+&#xD;
+2019-11-04 05:43:02 - [TEST_STEP][PASSED] - switchToWindowTitle("Transcenter - VPOS"): Switched to window with title: 'Transcenter - VPOS'&#xD;
+&#xD;
+2019-11-04 05:43:06 - [MESSAGE][PASSED] - Switched to window with title: 'Transcenter - VPOS'&#xD;
+&#xD;
+2019-11-04 05:43:06 - [TEST_STEP][PASSED] - delay(delayForElement): Delayed 6 second(s)&#xD;
+&#xD;
+2019-11-04 05:43:12 - [MESSAGE][PASSED] - Delayed 6 second(s)&#xD;
+&#xD;
+2019-11-04 05:43:12 - [TEST_STEP][PASSED] - utilities.SafeActions.javascriptclick(findTestObject("Pages/ForceTransactions/tab_ForceTransactions"), PageLoadTime): utilities.SafeActions.javascriptclick is PASSED&#xD;
+&#xD;
+2019-11-04 05:43:13 - [MESSAGE][PASSED] - utilities.SafeActions.javascriptclick is PASSED&#xD;
+&#xD;
+2019-11-04 05:43:13 - [TEST_STEP][PASSED] - delay(delayForElement): Delayed 6 second(s)&#xD;
+&#xD;
+2019-11-04 05:43:19 - [MESSAGE][PASSED] - Delayed 6 second(s)&#xD;
+&#xD;
+2019-11-04 05:43:19 - [TEST_STEP][PASSED] - utilities.SafeActions.safeClickWithoutScroll(findTestObject("Pages/ForceTransactions/tab_ForceTransactions"), "Click on Force Transaction tab", [delayForElement]): utilities.SafeActions.safeClickWithoutScroll is PASSED&#xD;
+&#xD;
+2019-11-04 05:43:20 - [MESSAGE][INFO] - Safe Click Without scroll&#xD;
+&#xD;
+2019-11-04 05:43:20 - [MESSAGE][INFO] - ForceTransaction_TestSuite.ts:waiting until Click on Force Transaction tab is Clickable&#xD;
+&#xD;
+2019-11-04 05:43:20 - [MESSAGE][PASSED] - Object 'Object Repository/Pages/ForceTransactions/tab_ForceTransactions' is clickable&#xD;
+&#xD;
+2019-11-04 05:43:20 - [MESSAGE][PASSED] - Object 'Object Repository/Pages/ForceTransactions/tab_ForceTransactions' is visible&#xD;
+&#xD;
+2019-11-04 05:43:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Pages/ForceTransactions/tab_ForceTransactions' is clicked on&#xD;
+&#xD;
+2019-11-04 05:43:21 - [MESSAGE][INFO] - ForceTransaction_TestSuite.ts: click on the Click on Force Transaction tab&#xD;
+&#xD;
+2019-11-04 05:43:21 - [MESSAGE][PASSED] - utilities.SafeActions.safeClickWithoutScroll is PASSED&#xD;
+&#xD;
+2019-11-04 05:43:21 - [TEST_STEP][PASSED] - delay(delayForElement): Delayed 6 second(s)&#xD;
+&#xD;
+2019-11-04 05:43:27 - [MESSAGE][PASSED] - Delayed 6 second(s)&#xD;
+&#xD;
+2019-11-04 05:43:27 - [TEST_STEP][FAILED] - pages.Sale.verifyIfEntryModeIsChecked(tabName, entryModeCheckBox, delayBetweenTestSteps): Unable to check object ''&#xD;
+&#xD;
+2019-11-04 05:43:28 - [MESSAGE][WARNING] - Cannot take screenshot&#xD;
+&#xD;
+2019-11-04 05:43:28 - [MESSAGE][WARNING] - Unable to verify object '' is checked (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object '' is checked&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1352)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementChecked$9.call(Unknown Source)&#xD;
+	at pages.Sale.verifyIfEntryModeIsChecked(Sale.groovy:49)&#xD;
+	at pages.Sale.invokeMethod(Sale.groovy)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)&#xD;
+	at VPOS_ForceTransaction_CardPresent_Or_Not_Present.run(VPOS_ForceTransaction_CardPresent_Or_Not_Present:38)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1572867680994.run(TempTestSuite1572867680994.groovy:35)&#xD;
+Caused by: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FW1-D-DTA-ZENQ1', ip: '172.25.52.168', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191016161957, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 78456, moz:profile: C:\Users\venkata.annam\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fe4934df-a764-463d-ac7c-edb5fff79b68
+*** Element info: {Using=xpath, value=//section[@id="p-Force Transaction"]//*[text()="Manually Keyed"]/ancestor::div[1]/input}&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:28)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)&#xD;
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:761)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:78)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1352)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementChecked$9.call(Unknown Source)&#xD;
+	at pages.Sale.verifyIfEntryModeIsChecked(Sale.groovy:49)&#xD;
+	at pages.Sale.invokeMethod(Sale.groovy)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)&#xD;
+	at Script1572860935942.run(Script1572860935942.groovy:38)&#xD;
+	... 13 more&#xD;
+)&#xD;
+&#xD;
+2019-11-04 05:43:28 - [MESSAGE][WARNING] - Cannot take screenshot&#xD;
+&#xD;
+2019-11-04 05:43:28 - [MESSAGE][FAILED] - Unable to check object '' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to check object ''&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1039)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$10.call(Unknown Source)&#xD;
+	at pages.Sale.verifyIfEntryModeIsChecked(Sale.groovy:61)&#xD;
+	at pages.Sale.invokeMethod(Sale.groovy)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)&#xD;
+	at VPOS_ForceTransaction_CardPresent_Or_Not_Present.run(VPOS_ForceTransaction_CardPresent_Or_Not_Present:38)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1572867680994.run(TempTestSuite1572867680994.groovy:35)&#xD;
+Caused by: org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FW1-D-DTA-ZENQ1', ip: '172.25.52.168', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191016161957, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 78456, moz:profile: C:\Users\venkata.annam\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fe4934df-a764-463d-ac7c-edb5fff79b68
+*** Element info: {Using=xpath, value=//section[@id="p-Force Transaction"]//*[text()="Manually Keyed"]/ancestor::div[1]/input}&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:28)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)&#xD;
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:761)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:77)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1039)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$10.call(Unknown Source)&#xD;
+	at pages.Sale.verifyIfEntryModeIsChecked(Sale.groovy:61)&#xD;
+	at pages.Sale.invokeMethod(Sale.groovy)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)&#xD;
+	at Script1572860935942.run(Script1572860935942.groovy:38)&#xD;
+	... 13 more&#xD;
+)&#xD;
+&#xD;
+2019-11-04 05:43:28 - [MESSAGE][FAILED] - Unable to check object ''&#xD;
+&#xD;
+2019-11-04 05:43:28 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null&#xD;
+&#xD;
+2019-11-04 05:43:28 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null&#xD;
+&#xD;
+2019-11-04 05:43:28 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null&#xD;
+&#xD;
+2019-11-04 05:43:28 - [TEST_STEP][PASSED] - testCaseName = testCaseContext.getTestCaseId(): null&#xD;
+&#xD;
+2019-11-04 05:43:28 - [TEST_STEP][PASSED] - strCount = testCaseName.lastIndexOf("/"): null&#xD;
+&#xD;
+2019-11-04 05:43:28 - [TEST_STEP][PASSED] - testCaseName = testCaseName.substring(strCount): null&#xD;
+&#xD;
+2019-11-04 05:43:28 - [TEST_STEP][PASSED] - println(testCaseName): null&#xD;
+&#xD;
+2019-11-04 05:43:28 - [TEST_STEP][PASSED] - if (getTestCaseStatus().equalsIgnoreCase("Error")): null&#xD;
+&#xD;
+2019-11-04 05:43:28 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err>2019-11-04 05:41:52 - [TEST_CASE][FAILED] - Test Cases/FirstView/Force Transactions/VPOS_ForceTransaction_CardPresent_Or_Not_Present: Test Cases/FirstView/Force Transactions/VPOS_ForceTransaction_CardPresent_Or_Not_Present FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to check object ''&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.check(CheckKeyword.groovy:88)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword.execute(CheckKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.check(WebUiBuiltInKeywords.groovy:1039)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$check$10.call(Unknown Source)&#xD;
+	at pages.Sale.verifyIfEntryModeIsChecked(Sale.groovy:61)&#xD;
+	at pages.Sale.invokeMethod(Sale.groovy)&#xD;
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)&#xD;
+	at VPOS_ForceTransaction_CardPresent_Or_Not_Present.run(VPOS_ForceTransaction_CardPresent_Or_Not_Present:38)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1572867680994.run(TempTestSuite1572867680994.groovy:35)&#xD;
+Caused by: org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FW1-D-DTA-ZENQ1', ip: '172.25.52.168', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191016161957, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 78456, moz:profile: C:\Users\venkata.annam\AppD..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fe4934df-a764-463d-ac7c-edb5fff79b68
+*** Element info: {Using=xpath, value=//section[@id="p-Force Transaction"]//*[text()="Manually Keyed"]/ancestor::div[1]/input}&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:28)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)&#xD;
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:761)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.doCall(CheckKeyword.groovy:77)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.CheckKeyword$_check_closure1.call(CheckKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 22 more</system-err>
+        </testcase>
+        <system-out>2019-11-04 05:41:51 - [TEST_SUITE][INCOMPLETE] - ForceTransaction_TestSuite: null</system-out>
+        <system-err>2019-11-04 05:41:51 - [TEST_SUITE][INCOMPLETE] - ForceTransaction_TestSuite: null</system-err>
+    </testsuite>
+</testsuites>

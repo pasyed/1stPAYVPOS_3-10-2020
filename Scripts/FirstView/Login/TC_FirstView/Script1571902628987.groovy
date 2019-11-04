@@ -13,8 +13,14 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-not_run: CustomKeywords.'utilities.SafeActions.safeClickWithoutScroll'(findTestObject('Pages/FirstView/link_Home'), 'Click on Home button in First View screen', 
-        (([GlobalVariable.PageLoadTime]) as int[]))
+/**
+ *
+ * Implemented By ZenQ
+ * Tested on Chrome Version 76.0.3809.100
+ * Tested on Firefox Version 68.0,70.0
+ *
+ *
+ */
 
 WebUI.delay(3)
 

@@ -24,6 +24,14 @@ def static "utilities.DynamicLocators.createDynamicLocators"(
         	idValue)
 }
 
+def static "utilities.DynamicLocators.createDynamicCheckboxLocatorForCheckBox"(
+    	String tabName	
+     , 	String checkBoxCardPresence	) {
+    (new utilities.DynamicLocators()).createDynamicCheckboxLocatorForCheckBox(
+        	tabName
+         , 	checkBoxCardPresence)
+}
+
 def static "utilities.DynamicLocators.createDynamicLocatorForCheckBox"(
     	String TabName	
      , 	String checkBoxValue	) {
@@ -186,6 +194,12 @@ def static "pages.FirstPayVault.verifyCardNumber"(
          , 	popupMessage)
 }
 
+def static "pages.Force_Transaction.verifyStrings"(
+    	String expectedMessage	) {
+    (new pages.Force_Transaction()).verifyStrings(
+        	expectedMessage)
+}
+
 def static "pages.Future_Payments.verifyInvoiceRecord"(
     	TestObject nextObj	
      , 	TestObject numberOfPages	
@@ -248,6 +262,16 @@ def static "pages.Sale.selectDate"(
     	int date	) {
     (new pages.Sale()).selectDate(
         	date)
+}
+
+def static "pages.Refund.verifyIfCardInformationIsChecked"(
+    	String tabName	
+     , 	String checkboxValue	
+     , 	int timeOut	) {
+    (new pages.Refund()).verifyIfCardInformationIsChecked(
+        	tabName
+         , 	checkboxValue
+         , 	timeOut)
 }
 
 def static "utilities.Sync.getWaitTime"(
